@@ -4,4 +4,20 @@ using UnityEngine;
 
 public class CharacterMovingState : CharacterStateInstance
 {
+    #region Override
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="direction"></param>
+    protected internal override void Move(float direction)
+    {
+        if (direction == 0.0f)
+        {
+            character.SetState(CharacterState.Idle);
+        }
+        base.Move(direction);
+    }
+
+    #endregion
 }

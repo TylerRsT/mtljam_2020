@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Wwise
+/mtljam_2020_WwiseProject/Originals/SFX/*.akd
+/mtljam_2020_WwiseProject/.cache/
