@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffa525dac9af204b85d93c5d14938d5, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c475192462602a4ca75e7bdec95bf0f4
+    GuidInternal: 
+    m_lastTime: -8586210381460132842
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 69a4754f2e4c9242986479fb8042df94
+    GuidInternal: 
+    m_lastTime: -8586210337526870701
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b7370e4db490034a9fe921e986b8ecec
+    GuidInternal: 
+    m_lastTime: -8586210363531525463
+    List:
+    - name: Placeholder
+      guid: bb68b2d1778b394fb164b9ee6bd1b146
+      id: 1548734028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Placeholder
+        ObjectType: 7
+      Path: Default Work Unit\Placeholder
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f2309509e2e02649bea9dae815e6898d
+    GuidInternal: 
+    m_lastTime: -8586210338829188304
+    List:
+    - name: Play
+      guid: 7da42a6dfc26064b986b5f27be60e9bc
+      id: 1256202815
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play
+        ObjectType: 3
+      Path: Default Work Unit\Play
+      maxAttenuation: 0
+      maxDuration: 25.56517
+      minDuration: 25.56517
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 733f18576ff97c46ad562d786887b4cb
+    GuidInternal: 
+    m_lastTime: -8586210381460212639
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f3e80a41e66e9944996247224bd34772
+    GuidInternal: 
+    m_lastTime: -8586210381460162771
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 856a2e0733554a418c8106bcaad54d28
+    GuidInternal: 
+    m_lastTime: -8586210381460152785
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c48a49af27c5d448bd71a076953bfd72
+    GuidInternal: 
+    m_lastTime: -8586210381460142816
+    List: []
+  ExpandedItems:
+  - /mtljam_2020_WwiseProject
+  - /mtljam_2020_WwiseProject/Events
+  - /mtljam_2020_WwiseProject/Events/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: Release

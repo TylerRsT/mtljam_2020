@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3E862B4-4F2A-4BD3-A658-98C40D3D48B3}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{B3E862B4-4F2A-4BD3-A658-98C40D3D48B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="New Music Playlist Container" ID="{863B06BE-9576-4EDE-A66E-A8EC8BDEF24B}" ShortID="936182275">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="New Music Segment" ID="{36B29988-6A17-4FAC-A4E2-BFC321D577C6}" ShortID="361492020">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="25565.1700680272"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="New Music Track" ID="{1702E964-CF49-4FB2-B6BC-DD2DD752DFEB}" ShortID="899171555">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+										<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="MidiTarget">
+											<ObjectRef Name="MYSYNTH" ID="{1110237C-BF5E-4835-AFAA-71B7477A80D1}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2C9421B4-9F36-41E2-895C-95E2936EBF1A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F847B844-840D-4D83-A401-9405A36B1355}">
+											<ClipList>
+												<MusicClipMidi Name="BrokenControlMidi" ID="{F28C6E57-FB0D-44D6-9C15-C8A84DC8EAE4}" ShortID="800131182">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="9026.04166666667"/>
+														<Property Name="MidiFileName" Type="string" Value="BrokenControlMidi.mid"/>
+													</PropertyList>
+												</MusicClipMidi>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="New Music Track_01" ID="{A51FEE88-A3D0-4C8A-96D4-6A2B7D75B47D}" ShortID="896343067">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BeepBox-Drone" ID="{081F6D86-9A70-4544-A6F3-9A858727D039}" ShortID="868600468">
+											<Language>SFX</Language>
+											<AudioFile>BeepBox-Drone.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DD3362A0-11E4-410A-9A0A-8143497FD2D8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0420FF3F-5641-4180-9FFC-EB1CF0EEE3EB}">
+											<ClipList>
+												<MusicClip Name="BeepBox-Drone" ID="{D69CF466-2719-4E5D-B673-F1191C4B4A4E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="25565.1700680272"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="BeepBox-Drone" ID="{081F6D86-9A70-4544-A6F3-9A858727D039}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7178CBA7-170A-416F-9536-FC37303DB2C3}"/>
+								<MusicCue Name="Exit Cue" ID="{5B1AC338-7DFD-47F4-923C-19BC82F10C6D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{8DA227CC-8ED4-4FB4-8C18-610E81626652}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{3D7A7FA6-CC0B-4F45-922C-A6CD5236C2FC}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DEAF1D0F-718A-4AE4-AE57-38550ABDB8C7}" ShortID="599872944"/>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
