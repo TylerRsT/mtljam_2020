@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1827662835145371999}
   - component: {fileID: 1827662835145371996}
   - component: {fileID: 7245411317607998257}
+  - component: {fileID: -369754994642844066}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -74,7 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f80cb095a2f0d824db11f32e9d29846a, type: 3}
+  m_Sprite: {fileID: 1236664885919262577, guid: 79288216489b96f498ab86d88a3ff8dc,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -161,10 +163,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.08}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.16, y: 0.16}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
@@ -172,7 +174,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.1, y: 0.16}
   m_EdgeRadius: 0
 --- !u!114 &7245411317607998257
 MonoBehaviour:
@@ -199,3 +201,40 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &-369754994642844066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827662835145371997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a111613b7e1c6498923b16a649bc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 11400000, guid: 6f133e94731ed5445900c325da741b31, type: 2}
+  onFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  onStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  playOnAwake: 1
+  ignoreTimeScale: 0
+  delayBetweenLoops: 0
+  oneShot: 0
+  backwards: 0
+  randomAnimation: 0
+  disableRendererOnFinish: 0
+  startAtRandomFrame: 0
+  minDelayBetweenLoops: 0
+  maxDelayBetweenLoops: 2
+  startAnimation: ANIM_Avatar_Idle
+  loopType: 0
+  fallbackAnimation: {fileID: 0}
+  fallbackLoopType: 0

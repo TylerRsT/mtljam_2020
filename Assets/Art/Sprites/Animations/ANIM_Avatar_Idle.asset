@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
   m_Name: ANIM_Avatar_Idle
   m_EditorClassIdentifier: 
-  fps: 30
+  fps: 15
   frames:
   - {fileID: 1236664885919262577, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
   - {fileID: 131023789567901322, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
