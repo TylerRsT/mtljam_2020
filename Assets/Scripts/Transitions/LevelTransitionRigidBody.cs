@@ -8,6 +8,22 @@ using UnityEngine;
 /// </summary>
 public class LevelTransitionRigidBody : MonoBehaviour
 {
+    #region Nested
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private enum LevelTransitionRigidBodyState
+    {
+        Waiting,
+
+        Executing,
+
+        Done,
+    }
+
+    #endregion
+
     #region Messages
 
     /// <summary>
@@ -17,29 +33,30 @@ public class LevelTransitionRigidBody : MonoBehaviour
     private void OnTransition(int levelID)
     {
         Debug.Assert(_rigidBody != null, "Rigid body not set.");
-        StartCoroutine(ApplyRigidBodyChanges());
+        Debug.Assert(_character != null, "Character not set.");
+        Debug.Assert(_rigidBody.GetComponent<BoxCollider2D>() != null, "Rigid body has no box collider.");
+
+        _character.AddForce(new Vector2(0.0f, _impulseForce));
+        _state = LevelTransitionRigidBodyState.Executing;
+    }
+
+    private void Update()
+    {
+        if(_state != LevelTransitionRigidBodyState.Executing)
+        {
+            return;
+        }
+
+        if(_character.transform.position.y > _rigidBody.transform.position.y + (_rigidBody.GetComponent<BoxCollider2D>().size.y / 2.0f))
+        {
+            _state = LevelTransitionRigidBodyState.Done;
+            _rigidBody.simulated = true;
+        }
     }
 
     #endregion
 
     #region Methods
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    private IEnumerator ApplyRigidBodyChanges()
-    {
-        yield return new WaitForSeconds(0.2f);
-
-        _rigidBody.simulated = true;
-
-        var tilemapGroup = _rigidBody.GetComponent<TilemapGroup>();
-        if (tilemapGroup != null)
-        {
-            tilemapGroup.enabled = true;
-        }
-    }
 
     #endregion
 
@@ -55,7 +72,15 @@ public class LevelTransitionRigidBody : MonoBehaviour
     /// 
     /// </summary>
     [SerializeField]
-    private float _colorAlpha = 1.0f;
+    private Rigidbody2D _character = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private float _impulseForce = 40.0f;
+
+    private LevelTransitionRigidBodyState _state = LevelTransitionRigidBodyState.Waiting;
 
     #endregion
 }
