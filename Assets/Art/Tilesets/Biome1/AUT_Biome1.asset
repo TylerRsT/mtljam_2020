@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b0bc9a66960e14b82805b45d9c4863, type: 3}
+  m_Name: AUT_Biome1
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 8137d810556538144bd0b177e1e08491, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 1
+  m_autotilingMode: 5
+  m_showInPalette: 1
+  TileIds: 00001a000100300002002700040007000800040007002e00030014000b001b000c0000000d000b003000090034002300330019000e001600160005001700030018000800250026002900200028001c00190028001000130013002f0011000a002100250022000f0023000e002400180031000c00ffffffff32000d000f002a0012001d000500060006002b001b0017001e0012001c0022001a002d001d0024002600290027001f002b0015002a0010001400020009002c00200021001f001e00ffffffff
