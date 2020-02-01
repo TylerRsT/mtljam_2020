@@ -1048,6 +1048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb0098db46f5f4cf7ab123cd4c39fd16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisappearSpeed: 0.1
+  DelayBeforeBreak: 0.8
 --- !u!50 &1979615839
 Rigidbody2D:
   serializedVersion: 4

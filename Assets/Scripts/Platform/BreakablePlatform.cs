@@ -5,17 +5,43 @@ using UnityEngine;
 
 public class BreakablePlatform : PlatformBase
 {
-    protected override void OnCharacterEnter(Character character)
-    {
-        Debug.Log("Breakableplatform");
+    [SerializeField]
+    private float DisappearSpeed = 0.10f;
 
-        Sprite sprite = gameObject.GetComponent<Sprite>();
+    [SerializeField]
+    private float DelayBeforeBreak = 0.8f;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator delayedEvent()
+    {
+        yield return new WaitForSeconds(DelayBeforeBreak);
+
+        var spriteRenderer = GetComponent<SpriteRenderer>();
+        float elapsedTime = 0.0f;
+        float startingA = spriteRenderer.color.a;
+        while (elapsedTime <= DisappearSpeed)
+        {
+            spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, Mathf.Lerp(startingA, 0.0f, elapsedTime / DisappearSpeed));
+            elapsedTime += Time.deltaTime;
+            yield return new WaitForSeconds(1.0f / 60.0f);
+        }
+        spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.0f);
 
         var rigidBody2D = GetComponent<Rigidbody2D>();
         rigidBody2D.simulated = false;
 
-        var spriteRenderer = GetComponent<SpriteRenderer>();
+        yield break;
+    }
 
-        spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.1f);
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="character"></param>
+    protected override void OnCharacterEnter(Character character)
+    {
+        StartCoroutine(delayedEvent());
     }
 }
