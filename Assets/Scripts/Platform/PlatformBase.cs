@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public abstract class PlatformBase : MonoBehaviour
@@ -14,7 +15,7 @@ public abstract class PlatformBase : MonoBehaviour
     {
         Character character = collision.gameObject.GetComponent<Character>();
 
-        if (character != null)
+        if (character != null && collision.contacts.First().normal == Vector2.down)
         {
             OnCharacterEnter(character);
         }
