@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1827662835145371998}
   - component: {fileID: 1827662835145371999}
   - component: {fileID: 1827662835145371996}
+  - component: {fileID: 7245411317607998257}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -120,6 +121,21 @@ MonoBehaviour:
   _characterDefinition: {fileID: 11400000, guid: 68b15759883e9184f807755281112aae,
     type: 2}
   _state: 0
+  _audioMovingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34c876f45f80b2c41b8ea9ef81e95476,
+      type: 2}
+  _audioJumpingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9eb0327e354475a45a221f96d2f22f47,
+      type: 2}
+  _audioLandingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34c876f45f80b2c41b8ea9ef81e95476,
+      type: 2}
 --- !u!114 &1827662835145371999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,3 +174,28 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &7245411317607998257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827662835145371997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a229f98fb8134db5be114001e51a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 27de685f28ad594439dc7f5fee162be5,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
