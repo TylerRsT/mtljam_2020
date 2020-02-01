@@ -6,6 +6,12 @@ using UnityEngine;
 public class BreakablePlatform : PlatformBase
 {
     [SerializeField]
+    private bool ApplyFallDown = false;
+
+    [SerializeField]
+    private bool ApplyReleaseConstraints = false;
+
+    [SerializeField]
     private bool ApplySelfdestruction = true;
 
     [SerializeField]
@@ -59,6 +65,17 @@ public class BreakablePlatform : PlatformBase
         if (ApplyTrampoline)
         {
             character.SetState(CharacterState.Jumping, TrampolineStrength);
+        }
+
+        if (ApplyReleaseConstraints)
+        {
+            var rigidBody2D = GetComponent<Rigidbody2D>();
+            rigidBody2D.constraints = RigidbodyConstraints2D.None;
+        }
+        else if (ApplyFallDown)
+        {
+            var rigidBody2D = GetComponent<Rigidbody2D>();
+            rigidBody2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
         }
     }
 }
