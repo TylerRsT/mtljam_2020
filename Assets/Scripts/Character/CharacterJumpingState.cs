@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CharacterJumpingState : CharacterStateInstance
@@ -13,7 +14,14 @@ public class CharacterJumpingState : CharacterStateInstance
     protected internal override void Enter(object arg = null)
     {
         base.Enter(arg);
-        character.rigidBody.AddForce(new Vector2(0.0f, character.characterDefinition.jumpForce));
+
+        var multiplier = 1.0f;
+        foreach(var boost in character.GetComponents<CollectibleBoost>())
+        {
+            multiplier += boost.jumpForceBoost;
+        }
+
+        character.rigidBody.AddForce(new Vector2(0.0f, character.characterDefinition.jumpForce * multiplier));
     }
 
     /// <summary>
