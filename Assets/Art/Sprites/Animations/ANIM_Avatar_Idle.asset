@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
+  m_Name: ANIM_Avatar_Idle
+  m_EditorClassIdentifier: 
+  fps: 15
+  frames:
+  - {fileID: 1236664885919262577, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
+  - {fileID: 131023789567901322, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
+  - {fileID: -408308705596231261, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
+  - {fileID: -2587126847504356271, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
+  - {fileID: 3859988680789141206, guid: 79288216489b96f498ab86d88a3ff8dc, type: 3}
+  framesDuration: 0100000001000000010000000100000001000000
