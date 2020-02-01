@@ -30,7 +30,7 @@ public class Collectible : MonoBehaviour
     /// 
     /// </summary>
     /// <param name="collision"></param>
-    private void OnTriggerEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         var character = collision.gameObject.GetComponent<Character>();
         if(character != null)
