@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 116388711}
   - component: {fileID: 116388710}
   - component: {fileID: 116388709}
+  - component: {fileID: 116388715}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -385,6 +386,21 @@ MonoBehaviour:
   _characterDefinition: {fileID: 11400000, guid: 68b15759883e9184f807755281112aae,
     type: 2}
   _state: 0
+  _audioMovingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34c876f45f80b2c41b8ea9ef81e95476,
+      type: 2}
+  _audioJumpingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9eb0327e354475a45a221f96d2f22f47,
+      type: 2}
+  _audioLandingEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34c876f45f80b2c41b8ea9ef81e95476,
+      type: 2}
 --- !u!50 &116388712
 Rigidbody2D:
   serializedVersion: 4
@@ -469,6 +485,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &116388715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116388708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662a229f98fb8134db5be114001e51a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 27de685f28ad594439dc7f5fee162be5,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &179157483
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844793372}
   - component: {fileID: 844793371}
+  - component: {fileID: 844793373}
   m_Layer: 0
   m_Name: Biome1FG
   m_TagString: Untagged
@@ -698,6 +740,31 @@ Transform:
   m_Father: {fileID: 1067546181}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844793373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844793370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d73166bc32e349968cd832e887d36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6f7e1664c
+  useOtherObject: 1
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ba55a8086667ce74786fb994b2ef08c6,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &1067546179
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +798,7 @@ MonoBehaviour:
   m_tilemaps:
   - {fileID: 844793371}
   - {fileID: 179157484}
-  m_selectedIndex: 1
+  m_selectedIndex: 0
   m_unselectedColorMultiplier: 1
   m_defaultTilemapWindowVisible: 0
   m_displayTilemapRList: 1
@@ -839,7 +906,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.8
+  orthographic size: 1.92
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1185,6 +1252,104 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!1 &1866007985
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1866007988}
+  - component: {fileID: 1866007987}
+  - component: {fileID: 1866007986}
+  m_Layer: 0
+  m_Name: Brush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1866007986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866007985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 860611cc84144924c8a95e2a1670d236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offset: {x: 0, y: 0}
+  IsUndoEnabled: 1
+  m_brushTilemap: {fileID: 0}
+--- !u!114 &1866007987
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866007985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dec3ca0fe88506448df84e8bf55b2dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowGrid: 1
+  InnerPadding: 0
+  ColliderDepth: 0.1
+  ColliderType: 0
+  Collider2DType: 0
+  ShowColliderNormals: 1
+  ColliderDisplayMode: 0
+  IsUndoEnabled: 0
+  SortOrder: 0
+  m_sortingLayer: 0
+  m_sortingLayerName: Default
+  m_orderInLayer: 0
+  m_material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_tintColor: {r: 1, g: 1, b: 1, a: 1}
+  m_pixelSnap: 0
+  m_isVisible: 1
+  m_allowPaintingOutOfBounds: 1
+  m_autoShrink: 0
+  m_enableUndoWhilePainting: 1
+  m_isTrigger: 0
+  m_physicMaterial: {fileID: 0}
+  m_physicMaterial2D: {fileID: 0}
+  m_cellSize: {x: 0, y: 0}
+  m_mapBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_tileset: {fileID: 0}
+  m_minGridX: 0
+  m_minGridY: 0
+  m_maxGridX: 0
+  m_maxGridY: 0
+  m_parentTilemapGroup: {fileID: 0}
+  m_parallaxFactor: {x: 1, y: 1}
+  m_chunkRendererProperties:
+    castShadows: 0
+    receiveShadows: 0
+    useLightProbes: 0
+    reflectionProbeUsage: 0
+    anchorOverride: {fileID: 0}
+--- !u!4 &1866007988
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866007985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1905432736
 GameObject:
   m_ObjectHideFlags: 0

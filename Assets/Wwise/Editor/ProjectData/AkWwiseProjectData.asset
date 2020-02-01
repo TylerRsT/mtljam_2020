@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586210310260405012
+    m_lastTime: -8586210130459999388
     List:
     - name: Placeholder
       guid: bb68b2d1778b394fb164b9ee6bd1b146
@@ -42,12 +42,21 @@ MonoBehaviour:
       - ElementName: Placeholder
         ObjectType: 7
       Path: Default Work Unit\Placeholder
+    - name: Steps
+      guid: 94cbf12d37e7e542887b8e1b818ccbd4
+      id: 1718617278
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Steps
+        ObjectType: 7
+      Path: Default Work Unit\Steps
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586210318298818452
+    m_lastTime: -8586210130459779977
     List:
     - name: Play_CharacterTheme
       guid: 7da42a6dfc26064b986b5f27be60e9bc
@@ -73,6 +82,30 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_FootSteps
+      guid: dd3dfc69c0cc504094d7102d51980c69
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_FootSteps
+        ObjectType: 3
+      Path: Default Work Unit\Play_FootSteps
+      maxAttenuation: 0
+      maxDuration: 0.491701
+      minDuration: 0.226063
+    - name: Play_Jump
+      guid: d2b16cb0e3e2bb47b0a7670aa7a15fbe
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Jump
+        ObjectType: 3
+      Path: Default Work Unit\Play_Jump
+      maxAttenuation: 0
+      maxDuration: 0.348571
+      minDuration: 0.348571
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -101,8 +134,51 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 856a2e0733554a418c8106bcaad54d28
     GuidInternal: 
-    m_lastTime: -8586210381460152785
-    List: []
+    m_lastTime: -8586210168427120892
+    List:
+    - name: Environment
+      guid: f3edf35ee0699b4cb1c4aae0dc4346ff
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 11
+      Path: Default Work Unit\Environment
+      values:
+      - name: Dirt
+        guid: 51efdd5daab2e94fb4478a42af40d294
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Dirt
+          ObjectType: 10
+      - name: Grass
+        guid: d3473a71c81fb246a01fc4379bc8dd8a
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Gravel
+        guid: 6326bbad658684418acc46dfd7c3562c
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Gravel
+          ObjectType: 10
+      - name: Nothing
+        guid: 2e10b8a71044444abe572eefea37c5dc
+        id: 4248742144
+        PathAndIcons:
+        - ElementName: Nothing
+          ObjectType: 10
+      - name: Wood
+        guid: 7b2b3e139cf22f44ac2640ae6c95f7d0
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -114,6 +190,5 @@ MonoBehaviour:
   - /mtljam_2020_WwiseProject
   - /mtljam_2020_WwiseProject/Events
   - /mtljam_2020_WwiseProject/Events/Default Work Unit
-  - /mtljam_2020_WwiseProject/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: Release

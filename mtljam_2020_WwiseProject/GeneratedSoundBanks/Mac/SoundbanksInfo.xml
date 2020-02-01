@@ -27,11 +27,90 @@
 			<IncludedMemoryFiles>
 				<File Id="435380055" Language="SFX">
 					<ShortName>BeepBox-Song.wav</ShortName>
-					<Path>SFX\BeepBox-Song_BCF69546.wem</Path>
+					<Path>SFX\BeepBox-Song_0F668CB4.wem</Path>
 				</File>
 				<File Id="513890444" Language="SFX">
 					<ShortName>BeepBox-Drone.wav</ShortName>
-					<Path>SFX\BeepBox-Drone_620FF3F5.wem</Path>
+					<Path>SFX\BeepBox-Drone_1C3B5A66.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1718617278" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Steps</ObjectPath>
+			<ShortName>Steps</ShortName>
+			<Path>Steps.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3854155799" Name="Play_FootSteps" ObjectPath="\Events\Default Work Unit\Play_FootSteps" DurationType="OneShot" DurationMin="0.226063" DurationMax="0.491701"/>
+				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" DurationType="OneShot" DurationMin="0.348571" DurationMax="0.348571"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="105928663" Language="SFX">
+					<ShortName>WoodSolid\Footstep_Walking_Hardwood_04.wav</ShortName>
+					<Path>SFX\WoodSolid\Footstep_Walking_Hardwood_04_10C4C929.wem</Path>
+				</File>
+				<File Id="156882047" Language="SFX">
+					<ShortName>Gravel\AK_FS_Run_Gravel_01.wav</ShortName>
+					<Path>SFX\Gravel\AK_FS_Run_Gravel_01_10C4C929.wem</Path>
+				</File>
+				<File Id="235142000" Language="SFX">
+					<ShortName>Grass\grass_01.wav</ShortName>
+					<Path>SFX\Grass\grass_01_10C4C929.wem</Path>
+				</File>
+				<File Id="285781453" Language="SFX">
+					<ShortName>WoodSolid\Footstep_Walking_Hardwood_02.wav</ShortName>
+					<Path>SFX\WoodSolid\Footstep_Walking_Hardwood_02_10C4C929.wem</Path>
+				</File>
+				<File Id="348827470" Language="SFX">
+					<ShortName>Grass\grass_03.wav</ShortName>
+					<Path>SFX\Grass\grass_03_10C4C929.wem</Path>
+				</File>
+				<File Id="380189587" Language="SFX">
+					<ShortName>WoodSolid\Footstep_Walking_Hardwood_01.wav</ShortName>
+					<Path>SFX\WoodSolid\Footstep_Walking_Hardwood_01_10C4C929.wem</Path>
+				</File>
+				<File Id="530565393" Language="SFX">
+					<ShortName>Grass\grass_04.wav</ShortName>
+					<Path>SFX\Grass\grass_04_10C4C929.wem</Path>
+				</File>
+				<File Id="636179205" Language="SFX">
+					<ShortName>Gravel\AK_FS_Run_Gravel_02.wav</ShortName>
+					<Path>SFX\Gravel\AK_FS_Run_Gravel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="663923647" Language="SFX">
+					<ShortName>WoodSolid\Footstep_Walking_Hardwood_05.wav</ShortName>
+					<Path>SFX\WoodSolid\Footstep_Walking_Hardwood_05_10C4C929.wem</Path>
+				</File>
+				<File Id="694556251" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_04.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_04_10C4C929.wem</Path>
+				</File>
+				<File Id="765792482" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_02.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_02_10C4C929.wem</Path>
+				</File>
+				<File Id="826516011" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_03.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_03_10C4C929.wem</Path>
+				</File>
+				<File Id="867583179" Language="SFX">
+					<ShortName>Jump_1.wav</ShortName>
+					<Path>SFX\Jump_1_10C4C929.wem</Path>
+				</File>
+				<File Id="920676940" Language="SFX">
+					<ShortName>Grass\grass_02.wav</ShortName>
+					<Path>SFX\Grass\grass_02_10C4C929.wem</Path>
+				</File>
+				<File Id="971684996" Language="SFX">
+					<ShortName>WoodSolid\Footstep_Walking_Hardwood_03.wav</ShortName>
+					<Path>SFX\WoodSolid\Footstep_Walking_Hardwood_03_10C4C929.wem</Path>
+				</File>
+				<File Id="979107240" Language="SFX">
+					<ShortName>Dirt\FS_Dirt_01.wav</ShortName>
+					<Path>SFX\Dirt\FS_Dirt_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1021418686" Language="SFX">
+					<ShortName>Gravel\AK_FS_Run_Gravel_03.wav</ShortName>
+					<Path>SFX\Gravel\AK_FS_Run_Gravel_03_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

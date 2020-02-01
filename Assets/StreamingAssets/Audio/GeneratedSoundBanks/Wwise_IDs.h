@@ -15,7 +15,27 @@ namespace AK
     {
         static const AkUniqueID PLAY_CHARACTERTHEME = 227758706U;
         static const AkUniqueID PLAY_DRONE = 4042141136U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace ENVIRONMENT
+        {
+            static const AkUniqueID GROUP = 1229948536U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID DIRT = 2195636714U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID GRAVEL = 2185786256U;
+                static const AkUniqueID NOTHING = 4248742144U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace ENVIRONMENT
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
@@ -26,6 +46,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID PLACEHOLDER = 1548734028U;
+        static const AkUniqueID STEPS = 1718617278U;
     } // namespace BANKS
 
     namespace BUSSES

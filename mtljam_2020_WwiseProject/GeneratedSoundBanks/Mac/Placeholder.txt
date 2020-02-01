@@ -6,6 +6,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	681025064	Depth			\Default Work Unit\Depth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	435380055	RunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_BCF69546.wem		\Actor-Mixer Hierarchy\Default Work Unit\RunningTheme		1993800
-	513890444	FirstLevelDrone	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_620FF3F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirstLevelDrone		4509824
+	435380055	RunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_0F668CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\RunningTheme		1993800
+	513890444	FirstLevelDrone	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_1C3B5A66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirstLevelDrone		4509824
 
