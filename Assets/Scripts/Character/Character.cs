@@ -154,6 +154,21 @@ public class Character : MonoBehaviour
     /// </summary>
     public Rigidbody2D rigidBody => _rigidBody;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    public AK.Wwise.Event audioMovingEvent => _audioMovingEvent;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public AK.Wwise.Event audioJumpingEvent => _audioJumpingEvent;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public AK.Wwise.Event audioLandingEvent => _audioLandingEvent;
+
     #endregion
 
     #region Fields
@@ -169,6 +184,24 @@ public class Character : MonoBehaviour
     /// </summary>
     [SerializeField]
     private CharacterState _state = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _audioMovingEvent;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _audioJumpingEvent;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _audioLandingEvent;
 
     private Dictionary<CharacterState, CharacterStateInstance> _stateInstances = new Dictionary<CharacterState, CharacterStateInstance>
     {

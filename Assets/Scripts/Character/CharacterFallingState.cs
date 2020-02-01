@@ -51,6 +51,7 @@ public class CharacterFallingState : CharacterStateInstance
             if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject)
             {
                 character.SetState(CharacterState.Idle);
+                character.audioLandingEvent.Post(character.gameObject);
                 return true;
             }
         }
