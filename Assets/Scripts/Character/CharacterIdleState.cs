@@ -12,7 +12,10 @@ public class CharacterIdleState : CharacterStateInstance
     /// <param name="direction"></param>
     protected internal override void Move(float direction)
     {
-        character.SetState(CharacterState.Moving);
+        if (direction != 0.0f)
+        {
+            character.SetState(CharacterState.Moving);
+        }
         base.Move(direction);
     }
 
