@@ -16,6 +16,6 @@ MonoBehaviour:
   Params:
     m_paramList: []
   m_group: 0
-  m_autotilingMode: 1
+  m_autotilingMode: 5
   m_showInPalette: 1
   TileIds: 4d00100017000f000d000e00ffffffffffffffffffffffff450004006e000d006f00000086000b00ffffffffffffffffffffffffc9000300dc000000fe00090041010800ffffffffffffffffffffffffea000200ffffffffffffffffffffffff600107008d0106008e0105004d001100ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
