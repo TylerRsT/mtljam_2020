@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="New Blend Container" ID="{34D0459D-54C0-45C8-AC38-C541288A2F64}" ShortID="641900356">
+				<Sound Name="RunningTheme" ID="{EFD70EAD-5076-4FBF-ABFA-E0E8C37ABAA2}" ShortID="609182568">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
@@ -12,7 +12,99 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
 						</Reference>
 					</ReferenceList>
-				</BlendContainer>
+					<ChildrenList>
+						<AudioFileSource Name="BeepBox-Song" ID="{5C7A6760-DD10-4D62-9A71-C28917A862C8}" ShortID="435380055">
+							<Language>SFX</Language>
+							<AudioFile>BeepBox-Song.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BeepBox-Song" ID="{5C7A6760-DD10-4D62-9A71-C28917A862C8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="FirstLevelDrone" ID="{F1542907-58A6-4E3E-B5D2-A0DFF4F8AF69}" ShortID="799440695">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" ShortID="513890444">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="12.4761532010064"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="10.1998024415246"/>
+								<Property Name="LoopEnd" Type="Real64" Value="15.6717994595098"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>BeepBox-Drone.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="MYSYNTH" ID="{1110237C-BF5E-4835-AFAA-71B7477A80D1}" ShortID="708420174">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="mysynth" ID="{3C61F31A-E459-481F-982B-56CACEE27F74}" ShortID="950402262" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="132"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-10">
+									<RTPCList>
+										<RTPC Name="" ID="{AC608FD4-5A43-4F07-8155-E72A53BC71F8}" ShortID="502566580">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{3A5F715D-B42D-4A32-BF7C-2B274BC1BFD8}" ShortID="720916575">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.01"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{680978FD-BD48-4BFF-9E7E-35AD12690ED8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="mysynth" ID="{3C61F31A-E459-481F-982B-56CACEE27F74}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

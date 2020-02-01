@@ -24,22 +24,43 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 69a4754f2e4c9242986479fb8042df94
     GuidInternal: 
-    m_lastTime: -8586210381460202656
+    m_lastTime: -8586210337526870701
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586210381460172736
-    List: []
+    m_lastTime: -8586210363531525463
+    List:
+    - name: Placeholder
+      guid: bb68b2d1778b394fb164b9ee6bd1b146
+      id: 1548734028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Placeholder
+        ObjectType: 7
+      Path: Default Work Unit\Placeholder
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586210381460222588
-    List: []
+    m_lastTime: -8586210338829188304
+    List:
+    - name: Play
+      guid: 7da42a6dfc26064b986b5f27be60e9bc
+      id: 1256202815
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play
+        ObjectType: 3
+      Path: Default Work Unit\Play
+      maxAttenuation: 0
+      maxDuration: 25.56517
+      minDuration: 25.56517
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -68,6 +89,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586210381460142816
     List: []
-  ExpandedItems: []
+  ExpandedItems:
+  - /mtljam_2020_WwiseProject
+  - /mtljam_2020_WwiseProject/Events
+  - /mtljam_2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: Release
