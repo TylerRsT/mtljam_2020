@@ -10,6 +10,7 @@ public class CharacterFallingState : CharacterStateInstance
     #region Const
 
     private const float RaycastDistance = 0.2f;
+    private const float SoundMinInterval = 0.15f;
 
     #endregion
 
@@ -21,6 +22,11 @@ public class CharacterFallingState : CharacterStateInstance
     protected internal override void Update()
     {
         base.Update();
+
+        if(_soundPostDelay > 0.0f)
+        {
+            _soundPostDelay = Mathf.Max(_soundPostDelay - Time.deltaTime, 0.0f);
+        }
 
         var offset = character.GetComponent<BoxCollider2D>().size.x / 2.0f;
 
@@ -51,6 +57,11 @@ public class CharacterFallingState : CharacterStateInstance
             if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject)
             {
                 character.SetState(CharacterState.Idle);
+                if (_soundPostDelay == 0.0f)
+                {
+                    character.audioLandingEvent.Post(character.gameObject);
+                    _soundPostDelay = SoundMinInterval;
+                }
                 return true;
             }
         }
@@ -59,4 +70,13 @@ public class CharacterFallingState : CharacterStateInstance
     }
 
     #endregion
+
+    #region Fields
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private float _soundPostDelay = 0.0f;
+
+    #endregion 
 }

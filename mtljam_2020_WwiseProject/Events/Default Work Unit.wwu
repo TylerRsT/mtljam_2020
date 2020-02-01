@@ -25,6 +25,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_FootSteps" ID="{69FC3DDD-CCC0-4050-94D7-102D51980C69}">
+					<ChildrenList>
+						<Action Name="" ID="{EED58827-F550-4FB7-AD3A-499A1A9C1FDB}" ShortID="159114936">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environment" ID="{0153157B-5E97-4637-B58B-3B7B95A3ED04}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump" ID="{B06CB1D2-E2E3-47BB-B0A7-670AA7A15FBE}">
+					<ChildrenList>
+						<Action Name="" ID="{86875AE8-046F-491F-8E71-6DCC4B720DA3}" ShortID="867945271">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{9B81FECE-9DB5-4704-B5A8-817653E79986}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

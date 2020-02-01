@@ -38,7 +38,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="MidiTarget">
-											<ObjectRef Name="MYSYNTH" ID="{1110237C-BF5E-4835-AFAA-71B7477A80D1}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+											<ObjectRef Name="MYLOWSYNTH" ID="{1110237C-BF5E-4835-AFAA-71B7477A80D1}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>

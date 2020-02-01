@@ -18,8 +18,26 @@ MonoBehaviour:
   m_group: 0
   m_autotilingMode: 1
   m_showInPalette: 1
-  AnimFPS: 4
+  AnimFPS: 15
   AnimDelay: 0
   AnimFrames:
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
+  - tileId: 111
+    UVOffset: {x: 0, y: 0}
   - tileId: 111
     UVOffset: {x: 0, y: 0}
