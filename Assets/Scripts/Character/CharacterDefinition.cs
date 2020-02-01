@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// 
 /// </summary>
-[CreateAssetMenu(fileName = "NewCharacterDefinition", menuName = "Character Definition")]
+[CreateAssetMenu(fileName = "NewCharacterDefinition", menuName = "Jam2020/Character Definition")]
 public class CharacterDefinition : ScriptableObject
 {
     #region Properties

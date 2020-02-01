@@ -28,7 +28,7 @@ public class CharacterInput : MonoBehaviour
     /// <summary>
     /// 
     /// </summary>
-    private void FixedUpdate()
+    private void Update()
     {
         _character.Move(Input.GetAxis(HorizontalMoveInputName));
 
