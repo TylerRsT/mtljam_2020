@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="New Blend Container" ID="{34D0459D-54C0-45C8-AC38-C541288A2F64}" ShortID="641900356">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
