@@ -6,16 +6,25 @@ using UnityEngine;
 public class BreakablePlatform : PlatformBase
 {
     [SerializeField]
+    private bool ApplySelfdestruction = true;
+
+    [SerializeField]
     private float DisappearSpeed = 0.10f;
 
     [SerializeField]
     private float DelayBeforeBreak = 0.8f;
 
+    [SerializeField]
+    private bool ApplyTrampoline = false;
+
+    [SerializeField]
+    private float TrampolineStrength = 1.0f;
+
     /// <summary>
     /// 
     /// </summary>
     /// <returns></returns>
-    private IEnumerator delayedEvent()
+    private IEnumerator delayedSelfDestruction()
     {
         yield return new WaitForSeconds(DelayBeforeBreak);
 
@@ -42,6 +51,14 @@ public class BreakablePlatform : PlatformBase
     /// <param name="character"></param>
     protected override void OnCharacterEnter(Character character)
     {
-        StartCoroutine(delayedEvent());
+        if (ApplySelfdestruction)
+        {
+            StartCoroutine(delayedSelfDestruction());
+        }
+
+        if (ApplyTrampoline)
+        {
+            character.SetState(CharacterState.Jumping, TrampolineStrength);
+        }
     }
 }
