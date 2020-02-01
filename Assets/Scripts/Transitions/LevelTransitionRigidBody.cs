@@ -34,7 +34,6 @@ public class LevelTransitionRigidBody : MonoBehaviour
     {
         Debug.Assert(_rigidBody != null, "Rigid body not set.");
         Debug.Assert(_character != null, "Character not set.");
-        Debug.Assert(_rigidBody.GetComponent<BoxCollider2D>() != null, "Rigid body has no box collider.");
 
         _character.AddForce(new Vector2(0.0f, _impulseForce));
         _state = LevelTransitionRigidBodyState.Executing;
@@ -51,6 +50,12 @@ public class LevelTransitionRigidBody : MonoBehaviour
         {
             _state = LevelTransitionRigidBodyState.Done;
             _rigidBody.simulated = true;
+
+            var renderer = _rigidBody.GetComponent<SpriteRenderer>();
+            if(renderer != null)
+            {
+                renderer.enabled = true;
+            }
         }
     }
 
