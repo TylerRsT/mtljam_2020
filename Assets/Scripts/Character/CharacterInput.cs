@@ -10,7 +10,7 @@ public class CharacterInput : MonoBehaviour
 {
     #region Const
 
-    private const string HorizontalMoveInputName = "HorizontalMove";
+    private const string HorizontalMoveInputName = "Horizontal";
     private const string JumpInputName = "Jump";
 
     #endregion
