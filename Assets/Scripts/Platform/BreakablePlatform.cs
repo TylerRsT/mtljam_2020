@@ -6,12 +6,6 @@ using UnityEngine;
 public class BreakablePlatform : PlatformBase
 {
     [SerializeField]
-    private bool ApplyFallDown = false;
-
-    [SerializeField]
-    private bool ApplyReleaseConstraints = false;
-
-    [SerializeField]
     private bool ApplySelfdestruction = true;
 
     [SerializeField]
@@ -25,6 +19,18 @@ public class BreakablePlatform : PlatformBase
 
     [SerializeField]
     private float TrampolineStrength = 1.0f;
+
+    [SerializeField]
+    private bool JumpingTile = false;
+
+    [SerializeField]
+    private float JumpingTileStrength = 400.0f;
+
+    [SerializeField]
+    private bool ApplyFallDown = false;
+
+    [SerializeField]
+    private bool ApplyReleaseConstraints = false;
 
     /// <summary>
     /// 
@@ -57,6 +63,8 @@ public class BreakablePlatform : PlatformBase
     /// <param name="character"></param>
     protected override void OnCharacterEnter(Character character)
     {
+        var rigidBody2D = GetComponent<Rigidbody2D>();
+
         if (ApplySelfdestruction)
         {
             StartCoroutine(delayedSelfDestruction());
@@ -67,14 +75,18 @@ public class BreakablePlatform : PlatformBase
             character.SetState(CharacterState.Jumping, TrampolineStrength);
         }
 
+        if (JumpingTile) // makes the tile itself jump ; keep above ApplyReleaseConstraints
+        {
+            rigidBody2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
+            rigidBody2D.AddForce(new Vector2(0.0f, JumpingTileStrength));
+        }
+
         if (ApplyReleaseConstraints)
         {
-            var rigidBody2D = GetComponent<Rigidbody2D>();
             rigidBody2D.constraints = RigidbodyConstraints2D.None;
         }
         else if (ApplyFallDown)
         {
-            var rigidBody2D = GetComponent<Rigidbody2D>();
             rigidBody2D.constraints &= ~RigidbodyConstraints2D.FreezePositionY;
         }
     }
