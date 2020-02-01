@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1b0bc9a66960e14b82805b45d9c4863, type: 3}
+  m_Name: AUT_Deathzone
+  m_EditorClassIdentifier: 
+  Tileset: {fileID: 11400000, guid: 8afc113cc95f54940a6ebcc7d7f070fd, type: 2}
+  Params:
+    m_paramList: []
+  m_group: 0
+  m_autotilingMode: 1
+  m_showInPalette: 1
+  TileIds: 4d00100017000f000d000e00ffffffffffffffffffffffff450004006e000d006f00000086000b00ffffffffffffffffffffffffc9000300dc000000fe00090041010800ffffffffffffffffffffffffea000200ffffffffffffffffffffffff600107008d0106008e0105004d001100ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
