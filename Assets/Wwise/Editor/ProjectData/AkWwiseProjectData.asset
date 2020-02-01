@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586210363531525463
+    m_lastTime: -8586210310260405012
     List:
     - name: Placeholder
       guid: bb68b2d1778b394fb164b9ee6bd1b146
@@ -47,27 +47,48 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586210338829188304
+    m_lastTime: -8586210318298818452
     List:
-    - name: Play
+    - name: Play_CharacterTheme
       guid: 7da42a6dfc26064b986b5f27be60e9bc
-      id: 1256202815
+      id: 227758706
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play
+      - ElementName: Play_CharacterTheme
         ObjectType: 3
-      Path: Default Work Unit\Play
+      Path: Default Work Unit\Play_CharacterTheme
       maxAttenuation: 0
-      maxDuration: 25.56517
-      minDuration: 25.56517
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Drone
+      guid: 3de244ebe4c87e4381c625fb30496900
+      id: 4042141136
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Drone
+        ObjectType: 3
+      Path: Default Work Unit\Play_Drone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 733f18576ff97c46ad562d786887b4cb
     GuidInternal: 
-    m_lastTime: -8586210381460212639
-    List: []
+    m_lastTime: -8586210310260116067
+    List:
+    - name: Depth
+      guid: d6930046ab0faf478d7fbe7aea9b775d
+      id: 681025064
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Depth
+        ObjectType: 13
+      Path: Default Work Unit\Depth
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -93,5 +114,6 @@ MonoBehaviour:
   - /mtljam_2020_WwiseProject
   - /mtljam_2020_WwiseProject/Events
   - /mtljam_2020_WwiseProject/Events/Default Work Unit
+  - /mtljam_2020_WwiseProject/SoundBanks
   autoPopulateEnabled: 1
   CurrentPluginConfig: Release

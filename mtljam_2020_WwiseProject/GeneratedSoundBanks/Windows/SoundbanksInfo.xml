@@ -21,16 +21,17 @@
 			<ShortName>Placeholder</ShortName>
 			<Path>Placeholder.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play" DurationType="OneShot" DurationMin="25.565170" DurationMax="25.565170"/>
+				<Event Id="227758706" Name="Play_CharacterTheme" ObjectPath="\Events\Default Work Unit\Play_CharacterTheme" DurationType="Infinite"/>
+				<Event Id="4042141136" Name="Play_Drone" ObjectPath="\Events\Default Work Unit\Play_Drone" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="800131182" Language="SFX">
-					<ShortName>BrokenControlMidi.mid</ShortName>
-					<Path>SFX\BrokenControlMidi_00000000.wem</Path>
+				<File Id="435380055" Language="SFX">
+					<ShortName>BeepBox-Song.wav</ShortName>
+					<Path>SFX\BeepBox-Song_BCF69546.wem</Path>
 				</File>
-				<File Id="868600468" Language="SFX">
+				<File Id="513890444" Language="SFX">
 					<ShortName>BeepBox-Drone.wav</ShortName>
-					<Path>SFX\BeepBox-Drone_D79FB2B7.wem</Path>
+					<Path>SFX\BeepBox-Drone_620FF3F5.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

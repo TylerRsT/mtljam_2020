@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{57183F73-F96F-467C-AD56-2D786887B4CB}" SchemaVersion="94">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{57183F73-F96F-467C-AD56-2D786887B4CB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{57183F73-F96F-467C-AD56-2D786887B4CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
