@@ -12,6 +12,8 @@ public enum CharacterState
     Moving,
 
     Jumping,
+
+    Falling,
 }
 
 /// <summary>
@@ -72,18 +74,18 @@ public abstract class CharacterStateInstance
             );
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-    protected internal virtual void Jump()
-    {
-        character.SetState(CharacterState.Jumping);
-    }
-
     #endregion
 
     #region Properties
 
+    /// <summary>
+    /// 
+    /// </summary>
+    protected internal virtual bool canJump => true;
+
+    /// <summary>
+    /// 
+    /// </summary>
     protected Character character { get; private set; }
 
     #endregion

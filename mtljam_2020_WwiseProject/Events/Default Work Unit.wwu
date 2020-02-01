@@ -3,12 +3,23 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{099530F2-E0E2-4926-BEA9-DAE815E6898D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play" ID="{6D2AA47D-26FC-4B06-986B-5F27BE60E9BC}">
+				<Event Name="Play_CharacterTheme" ID="{6D2AA47D-26FC-4B06-986B-5F27BE60E9BC}">
 					<ChildrenList>
 						<Action Name="" ID="{1EA45AFA-048B-42B8-BAEE-5ECCAE500FA5}" ShortID="36022168">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="New Music Segment" ID="{36B29988-6A17-4FAC-A4E2-BFC321D577C6}" WorkUnitID="{B3E862B4-4F2A-4BD3-A658-98C40D3D48B3}"/>
+									<ObjectRef Name="RunningTheme" ID="{EFD70EAD-5076-4FBF-ABFA-E0E8C37ABAA2}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drone" ID="{EB44E23D-C8E4-437E-81C6-25FB30496900}">
+					<ChildrenList>
+						<Action Name="" ID="{AF258C7D-B2DE-49F0-B87A-C17C1C96593A}" ShortID="227562501">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FirstLevelDrone" ID="{F1542907-58A6-4E3E-B5D2-A0DFF4F8AF69}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

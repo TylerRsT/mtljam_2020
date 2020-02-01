@@ -40,6 +40,10 @@ public class Character : MonoBehaviour
     /// </summary>
     private void Update()
     {
+        if (rigidBody.velocity.y < 0.0f)
+        {
+            SetState(CharacterState.Falling);
+        }
         stateInstance?.Update();
     }
 
@@ -78,7 +82,10 @@ public class Character : MonoBehaviour
     /// </summary>
     public void Jump()
     {
-        stateInstance?.Jump();
+        if(stateInstance.canJump)
+        {
+            SetState(CharacterState.Jumping);
+        }
     }
 
     /// <summary>
@@ -168,6 +175,7 @@ public class Character : MonoBehaviour
         {CharacterState.Idle, new CharacterIdleState() },
         {CharacterState.Moving, new CharacterMovingState() },
         {CharacterState.Jumping, new CharacterJumpingState() },
+        {CharacterState.Falling, new CharacterFallingState() },
     };
 
     /// <summary>

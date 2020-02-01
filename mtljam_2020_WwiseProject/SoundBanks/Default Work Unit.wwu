@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Placeholder" ID="{D1B268BB-8B77-4F39-B164-B9EE6BD1B146}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play" ID="{6D2AA47D-26FC-4B06-986B-5F27BE60E9BC}" WorkUnitID="{099530F2-E0E2-4926-BEA9-DAE815E6898D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Drone" ID="{EB44E23D-C8E4-437E-81C6-25FB30496900}" WorkUnitID="{099530F2-E0E2-4926-BEA9-DAE815E6898D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CharacterTheme" ID="{6D2AA47D-26FC-4B06-986B-5F27BE60E9BC}" WorkUnitID="{099530F2-E0E2-4926-BEA9-DAE815E6898D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

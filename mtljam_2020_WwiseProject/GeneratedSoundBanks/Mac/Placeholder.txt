@@ -1,13 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1256202815	Play			\Default Work Unit\Play	
+	227758706	Play_CharacterTheme			\Default Work Unit\Play_CharacterTheme	
+	4042141136	Play_Drone			\Default Work Unit\Play_Drone	
 
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	720916575	Modulator Envelope (Custom)				
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	950402262	mysynth	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\MYSYNTH\mysynth	
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	681025064	Depth			\Default Work Unit\Depth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	800131182	New Music Track	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BrokenControlMidi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\New Music Segment\New Music Track		1490
-	868600468	New Music Track_01	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\New Music Segment\New Music Track_01		4509760
+	435380055	RunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_BCF69546.wem		\Actor-Mixer Hierarchy\Default Work Unit\RunningTheme		1993800
+	513890444	FirstLevelDrone	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_620FF3F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirstLevelDrone		4509824
 

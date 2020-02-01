@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5206fc04ff8cda64bbc0d5f923f94371, type: 3}
   m_Name: 6D2AA47D-26FC-4B06-986B-5F27BE60E9BC
   m_EditorClassIdentifier: 
-  objectName: Play
-  id: 1256202815
+  objectName: Play_CharacterTheme
+  id: 227758706
   guid: 6D2AA47D-26FC-4B06-986B-5F27BE60E9BC
