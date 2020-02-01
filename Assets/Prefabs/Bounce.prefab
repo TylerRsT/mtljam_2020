@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2117225266536405148}
   - component: {fileID: 2117225266536405149}
-  - component: {fileID: 2117225266536405151}
   - component: {fileID: 2117225266536405150}
   - component: {fileID: 2117225266536405153}
+  - component: {fileID: -4880758599483559551}
   m_Layer: 0
   m_Name: BreakableTile
   m_TagString: Untagged
@@ -83,20 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2117225266536405151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2117225266536405146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0098db46f5f4cf7ab123cd4c39fd16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DisappearSpeed: 0.1
-  DelayBeforeBreak: 0.8
 --- !u!50 &2117225266536405150
 Rigidbody2D:
   serializedVersion: 4
@@ -144,3 +130,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-4880758599483559551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117225266536405146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a79a7e55a43de47b5a03a2b6f04d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bouncingForce: 2
