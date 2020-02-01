@@ -4,6 +4,12 @@ using UnityEngine;
 
 public abstract class PlatformBase : MonoBehaviour
 {
+    #region Messages
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="collision"></param>
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Character character = collision.gameObject.GetComponent<Character>();
@@ -13,5 +19,16 @@ public abstract class PlatformBase : MonoBehaviour
             OnCharacterEnter(character);
         }
     }
+
+    #endregion
+
+    #region Abstract
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="character"></param>
     protected abstract void OnCharacterEnter(Character character);
+
+    #endregion
 }
