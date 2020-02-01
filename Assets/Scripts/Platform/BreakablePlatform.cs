@@ -10,6 +10,19 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class BreakablePlatform : PlatformBase
 {
+    #region Messages
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private void Start()
+    {
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    #endregion
+
     #region Override
 
     /// <summary>
@@ -18,10 +31,10 @@ public class BreakablePlatform : PlatformBase
     /// <param name="character"></param>
     protected override void OnCharacterEnter(Character character)
     {
-        _rigidBody = GetComponent<Rigidbody2D>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-
-        StartCoroutine(DelaySelfDestruction());
+        if (!_coroutineTriggered)
+        {
+            StartCoroutine(DelaySelfDestruction());
+        }
     }
 
     #endregion
@@ -34,6 +47,7 @@ public class BreakablePlatform : PlatformBase
     /// <returns></returns>
     private IEnumerator DelaySelfDestruction()
     {
+        _coroutineTriggered = true;
         yield return new WaitForSeconds(_delayBeforeBreak);
 
         float elapsedTime = 0.0f;
@@ -59,6 +73,7 @@ public class BreakablePlatform : PlatformBase
         _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, startingA);
         _rigidBody.simulated = true;
 
+        _coroutineTriggered = false;
         yield break;
     }
 
@@ -99,6 +114,11 @@ public class BreakablePlatform : PlatformBase
     /// 
     /// </summary>
     private SpriteRenderer _spriteRenderer;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private bool _coroutineTriggered = false;
 
     #endregion
 }
