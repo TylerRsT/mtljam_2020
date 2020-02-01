@@ -21,6 +21,12 @@ public class CharacterJumpingState : CharacterStateInstance
             multiplier += boost.jumpForceBoost;
         }
 
+        // note that the argument would override the jumb boosters (for trampoline tiles)
+        if (arg != null & arg is float)
+        {
+            multiplier = (float)arg;
+        }
+
         character.rigidBody.AddForce(new Vector2(0.0f, character.characterDefinition.jumpForce * multiplier));
     }
 
