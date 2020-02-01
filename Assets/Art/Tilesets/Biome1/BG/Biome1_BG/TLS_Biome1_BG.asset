@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0d98f5be51926f46bc797504da5ad22, type: 3}
-  m_Name: TLS_Biome1
+  m_Name: TLS_Biome1_BG
   m_EditorClassIdentifier: 
-  AtlasTexture: {fileID: 2800000, guid: 7851005b3c79ea54c8c21c08d143dd01, type: 3}
+  AtlasTexture: {fileID: 2800000, guid: 7c006fc9c25cc26458ed01f1194520f8, type: 3}
   TilePxSize: {x: 16, y: 16}
   SliceOffset: {x: 0, y: 0}
   SlicePadding: {x: 0, y: 0}
@@ -25,101 +25,7 @@ MonoBehaviour:
   m_tilesetHeight: 20
   m_brushes:
   - Id: 1
-    BrushAsset: {fileID: 11400000, guid: 08f4b835fa4c6c942b58b6558fdc5ab6, type: 2}
-  - Id: 2
-    BrushAsset: {fileID: 11400000, guid: 0c11079080a26af4ea78ab011b44a4d3, type: 2}
-  - Id: 3
-    BrushAsset: {fileID: 11400000, guid: 132a4e5fa79d64d47975466c564fc26b, type: 2}
-  - Id: 4
-    BrushAsset: {fileID: 11400000, guid: 1938b7ae26d275344ad650cf711d389e, type: 2}
-  - Id: 5
-    BrushAsset: {fileID: 11400000, guid: 1ad18e38715b84246ad2ce85cdd15317, type: 2}
-  - Id: 6
-    BrushAsset: {fileID: 11400000, guid: 20879936de1f05a41919804bec4b65ca, type: 2}
-  - Id: 7
-    BrushAsset: {fileID: 11400000, guid: 23773aef4747cd24ab4b4291df9cc399, type: 2}
-  - Id: 8
-    BrushAsset: {fileID: 11400000, guid: 29f36cdb660bb2749a327086d2103561, type: 2}
-  - Id: 9
-    BrushAsset: {fileID: 11400000, guid: 2b1753cd9ec096847b71ea0b4f39ca90, type: 2}
-  - Id: 10
-    BrushAsset: {fileID: 11400000, guid: 2f54386a288579244836906cbf39ef14, type: 2}
-  - Id: 11
-    BrushAsset: {fileID: 11400000, guid: 2fc85ca612ae53f4bb0490898f7e7073, type: 2}
-  - Id: 12
-    BrushAsset: {fileID: 11400000, guid: 319914aa4bf91be44968b3d2d0bf87b6, type: 2}
-  - Id: 13
-    BrushAsset: {fileID: 11400000, guid: 33ade74448cc0fa40b02bce99f04b5da, type: 2}
-  - Id: 14
-    BrushAsset: {fileID: 11400000, guid: 41e4af1d68df6a94db9bb12a65133cdc, type: 2}
-  - Id: 15
-    BrushAsset: {fileID: 11400000, guid: 4b9c2ac8cfcfce54d8400aeff3a24f96, type: 2}
-  - Id: 16
-    BrushAsset: {fileID: 11400000, guid: 4ff059b004976d244b44f0dffe824edf, type: 2}
-  - Id: 17
-    BrushAsset: {fileID: 11400000, guid: 54e16c889b6766243b1604c2947eac0e, type: 2}
-  - Id: 18
-    BrushAsset: {fileID: 11400000, guid: 591061e3367f6104e81bf8aa1cd5f9d3, type: 2}
-  - Id: 19
-    BrushAsset: {fileID: 11400000, guid: 595427bfb6989564bb366e7152de8066, type: 2}
-  - Id: 20
-    BrushAsset: {fileID: 11400000, guid: 68bc0ead0b375e74f8476b1a9479a5ec, type: 2}
-  - Id: 21
-    BrushAsset: {fileID: 11400000, guid: 758ebeeeeb25eec419db34b41172cbf8, type: 2}
-  - Id: 22
-    BrushAsset: {fileID: 11400000, guid: 75acd4e88fbb1954b96fa487b16bc1ae, type: 2}
-  - Id: 23
-    BrushAsset: {fileID: 11400000, guid: 84998ba2d1d028d47a1c6722990b5a51, type: 2}
-  - Id: 24
-    BrushAsset: {fileID: 11400000, guid: 866d3ecc7d4fcf24b8a34279e5815ec0, type: 2}
-  - Id: 25
-    BrushAsset: {fileID: 11400000, guid: 8d600e2d722c4254e99fd9b9e7d10080, type: 2}
-  - Id: 26
-    BrushAsset: {fileID: 11400000, guid: 8d700aee096d3304fa931310c19c016d, type: 2}
-  - Id: 27
-    BrushAsset: {fileID: 11400000, guid: 8ec20466eb64fc847a45035f46e18fba, type: 2}
-  - Id: 28
-    BrushAsset: {fileID: 11400000, guid: 95dbc039511dd1749934a4380c161904, type: 2}
-  - Id: 29
-    BrushAsset: {fileID: 11400000, guid: a1c373a4b2268a1479aadf04a9d0d97d, type: 2}
-  - Id: 30
-    BrushAsset: {fileID: 11400000, guid: a478b5a092004364dab414648d609b5c, type: 2}
-  - Id: 31
-    BrushAsset: {fileID: 11400000, guid: b0246e1c6bf7214439480fb3a944c59b, type: 2}
-  - Id: 32
-    BrushAsset: {fileID: 11400000, guid: b5b2f1550154e8c4085a938f1914f105, type: 2}
-  - Id: 33
-    BrushAsset: {fileID: 11400000, guid: b6dd975977d43d948bc2143de7a67472, type: 2}
-  - Id: 34
-    BrushAsset: {fileID: 11400000, guid: bca404d1786a49e4ca81b5a58dee2faf, type: 2}
-  - Id: 35
-    BrushAsset: {fileID: 11400000, guid: be79724ad645d0548a3383979bb4b545, type: 2}
-  - Id: 36
-    BrushAsset: {fileID: 11400000, guid: c1d3d151b0c3c6643b44167b38e66b2f, type: 2}
-  - Id: 37
-    BrushAsset: {fileID: 11400000, guid: ca7f955b10372eb40b8dea580c43630c, type: 2}
-  - Id: 38
-    BrushAsset: {fileID: 11400000, guid: d033e4548b9db7a4ab911f359ae3f43f, type: 2}
-  - Id: 39
-    BrushAsset: {fileID: 11400000, guid: d037bc2fdf161fc459df63dc022e031e, type: 2}
-  - Id: 40
-    BrushAsset: {fileID: 11400000, guid: d470cadf83647c542bc363b930a0951c, type: 2}
-  - Id: 41
-    BrushAsset: {fileID: 11400000, guid: d4d9f28e07f8c0144989a6f70a293723, type: 2}
-  - Id: 42
-    BrushAsset: {fileID: 11400000, guid: e5112e85811ad4145802eaf245fe70d8, type: 2}
-  - Id: 43
-    BrushAsset: {fileID: 11400000, guid: e844b237089b1834caa8a979c7221794, type: 2}
-  - Id: 44
-    BrushAsset: {fileID: 11400000, guid: e9dd9e2d5f0bfa141a1e19eeed42df2c, type: 2}
-  - Id: 45
-    BrushAsset: {fileID: 11400000, guid: ea9cade2d2947b1499ade5c1228e483f, type: 2}
-  - Id: 46
-    BrushAsset: {fileID: 11400000, guid: ef44646c18a575e4dbcadb442b2dabb8, type: 2}
-  - Id: 47
-    BrushAsset: {fileID: 11400000, guid: efc44a3678429914dadac1227ede3f2c, type: 2}
-  - Id: 48
-    BrushAsset: {fileID: 11400000, guid: f67ed794fe5eb8d43b4f0ac7e6d2f344, type: 2}
+    BrushAsset: {fileID: 11400000, guid: 4df646aa81c888e4185629d867af6375, type: 2}
   m_tiles:
   - uv:
       serializedVersion: 2
@@ -139,7 +45,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -158,7 +64,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -177,7 +83,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -196,7 +102,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -215,7 +121,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -234,7 +140,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -253,7 +159,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -272,7 +178,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -291,7 +197,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -310,7 +216,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -348,7 +254,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -367,7 +273,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -386,7 +292,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -405,7 +311,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -424,7 +330,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -443,7 +349,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -462,7 +368,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -481,7 +387,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -500,7 +406,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -519,7 +425,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -557,7 +463,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -576,7 +482,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -595,7 +501,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -614,7 +520,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -633,7 +539,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -652,7 +558,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -671,7 +577,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -690,7 +596,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -709,7 +615,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -728,7 +634,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -747,7 +653,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -766,7 +672,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -785,7 +691,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -804,7 +710,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -823,7 +729,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -842,7 +748,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -861,7 +767,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -880,7 +786,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -899,7 +805,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -918,7 +824,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -937,7 +843,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -956,7 +862,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -1051,7 +957,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -1070,7 +976,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -1089,7 +995,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -1108,7 +1014,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -1127,7 +1033,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -1184,7 +1090,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -1203,7 +1109,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -1222,7 +1128,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -1241,7 +1147,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -1260,7 +1166,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -1279,7 +1185,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -1298,7 +1204,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -1317,7 +1223,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -1336,7 +1242,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -1355,7 +1261,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -1393,7 +1299,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -1412,7 +1318,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -1431,7 +1337,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -1450,7 +1356,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -1469,7 +1375,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -1488,7 +1394,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -1507,7 +1413,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -1526,7 +1432,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -1545,7 +1451,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -1564,7 +1470,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -1602,7 +1508,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -1621,7 +1527,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -1640,7 +1546,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -1659,7 +1565,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -1678,7 +1584,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -1697,7 +1603,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -1716,7 +1622,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -1735,7 +1641,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -1754,7 +1660,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -1773,7 +1679,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -1792,7 +1698,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -1811,7 +1717,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -1830,7 +1736,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -1849,7 +1755,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -1868,7 +1774,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -1887,7 +1793,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -1906,7 +1812,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -1925,7 +1831,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -1944,7 +1850,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -1963,7 +1869,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -1982,7 +1888,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -2001,7 +1907,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -2096,7 +2002,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -2115,7 +2021,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -2134,7 +2040,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -2153,7 +2059,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -2172,7 +2078,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -2229,7 +2135,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -2248,7 +2154,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -2267,7 +2173,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -2286,7 +2192,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -2305,7 +2211,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -2324,7 +2230,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -2343,7 +2249,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -2362,7 +2268,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -2381,7 +2287,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -2400,7 +2306,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -2438,7 +2344,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -2457,7 +2363,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -2476,7 +2382,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -2495,7 +2401,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -2514,7 +2420,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -2533,7 +2439,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -2552,7 +2458,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -2571,7 +2477,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -2590,7 +2496,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -2609,7 +2515,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -2647,7 +2553,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -2666,7 +2572,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -2685,7 +2591,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -2704,7 +2610,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -2723,7 +2629,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -2742,7 +2648,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -2761,7 +2667,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -2780,7 +2686,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -2799,7 +2705,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -2818,7 +2724,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -2837,7 +2743,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -2856,7 +2762,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -2875,7 +2781,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -2894,7 +2800,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -2913,7 +2819,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -2932,7 +2838,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -2951,7 +2857,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -2970,7 +2876,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -2989,7 +2895,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -3008,7 +2914,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -3027,7 +2933,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -3046,7 +2952,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -3141,7 +3047,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -3160,7 +3066,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -3179,7 +3085,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -3198,7 +3104,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -3217,7 +3123,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -3274,7 +3180,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -3293,7 +3199,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -3312,7 +3218,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -3331,7 +3237,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -3350,7 +3256,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -3369,7 +3275,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -3388,7 +3294,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -3407,7 +3313,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -3426,7 +3332,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -3445,7 +3351,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -3483,7 +3389,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -3502,7 +3408,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -3521,7 +3427,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -3540,7 +3446,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -3559,7 +3465,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -3578,7 +3484,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -3597,7 +3503,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -3616,7 +3522,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -3635,7 +3541,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -3654,7 +3560,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -3692,7 +3598,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -3711,7 +3617,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -3730,7 +3636,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -3749,7 +3655,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -3768,7 +3674,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -3787,7 +3693,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -3806,7 +3712,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -3825,7 +3731,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -3844,7 +3750,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -3863,7 +3769,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -3882,7 +3788,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -3901,7 +3807,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.09090909
@@ -3920,7 +3826,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.18181819
@@ -3939,7 +3845,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.27272728
@@ -3958,7 +3864,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.36363637
@@ -3977,7 +3883,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -3996,7 +3902,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -4015,7 +3921,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -4034,7 +3940,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -4053,7 +3959,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -4072,7 +3978,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.90909094
@@ -4091,7 +3997,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0
@@ -4186,7 +4092,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.45454547
@@ -4205,7 +4111,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.54545456
@@ -4224,7 +4130,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.6363636
@@ -4243,7 +4149,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.72727275
@@ -4262,7 +4168,7 @@ MonoBehaviour:
       offsetMode: 0
       showTileWithPrefab: 0
       showPrefabPreviewInTilePalette: 0
-    autilingGroup: 1
+    autilingGroup: 0
   - uv:
       serializedVersion: 2
       x: 0.8181818
@@ -4337,6 +4243,5 @@ MonoBehaviour:
   - 
   m_brushGroupAutotilingMatrix: 03000000030000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040
   m_brushTypeMaskOptions:
-  - RandomBrush
   - BrushFortySeven
   m_brushTypeMask: -1
