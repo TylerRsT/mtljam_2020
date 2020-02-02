@@ -55,7 +55,8 @@ public class CharacterFallingState : CharacterStateInstance
         foreach (var raycastHit in raycastHits)
         {
             if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject
-                && raycastHit.collider.GetComponent<RepulsivePlatform>() == null)
+                && raycastHit.collider.GetComponent<RepulsivePlatform>() == null
+                && raycastHit.collider.GetComponent<SplinePlatform>() == null)
             {
                 foreach(var characterInputLock in character.GetComponents<CharacterInputLock>())
                 {
