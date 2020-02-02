@@ -74,7 +74,10 @@ public class Character : MonoBehaviour
     /// <param name="direction"></param>
     public void Move(float direction)
     {
-        stateInstance?.Move(direction);
+        if (canInput)
+        {
+            stateInstance?.Move(direction);
+        }
     }
 
     /// <summary>
@@ -82,7 +85,7 @@ public class Character : MonoBehaviour
     /// </summary>
     public void Jump()
     {
-        if(stateInstance.canJump)
+        if(canInput && stateInstance.canJump)
         {
             SetState(CharacterState.Jumping);
         }
@@ -135,6 +138,11 @@ public class Character : MonoBehaviour
             OnHorizontalFacingDirectionChanged();
         }
     }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public bool canInput { get; set; } = true;
 
     /// <summary>
     /// 
