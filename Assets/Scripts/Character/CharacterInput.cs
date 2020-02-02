@@ -11,6 +11,8 @@ public class CharacterInput : MonoBehaviour
     #region Const
 
     private const string HorizontalMoveInputName = "Horizontal";
+    private const string RightMoveInputName = "Right";
+    private const string LeftMoveInputName = "Left";
     private const string JumpInputName = "Jump";
 
     #endregion
@@ -30,7 +32,18 @@ public class CharacterInput : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        _character.Move(Input.GetAxis(HorizontalMoveInputName));
+        if (Input.GetButton(RightMoveInputName))
+        {
+            _character.Move(1.0f);
+        }
+        else if (Input.GetButton(LeftMoveInputName))
+        {
+            _character.Move(-1.0f);
+        }
+        else
+        {
+            _character.Move(Input.GetAxis(HorizontalMoveInputName));
+        }
 
         if(Input.GetButtonDown(JumpInputName))
         {
