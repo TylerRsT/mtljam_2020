@@ -38,6 +38,12 @@ MonoBehaviour:
     BrushAsset: {fileID: 11400000, guid: 9d1ebef78918f72448c903a9a8fb1a79, type: 2}
   - Id: 7
     BrushAsset: {fileID: 11400000, guid: 8cb5d9bf65da26047ac46c24ba010aa7, type: 2}
+  - Id: 8
+    BrushAsset: {fileID: 11400000, guid: be5af80653483e048be164468d23153f, type: 2}
+  - Id: 9
+    BrushAsset: {fileID: 11400000, guid: 7e89e1f9c2aa6584d85bfb7b7b2c5da2, type: 2}
+  - Id: 10
+    BrushAsset: {fileID: 11400000, guid: 729e501b33eecfd49b62a74471eea967, type: 2}
   m_tiles:
   - uv:
       serializedVersion: 2

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3539b2508428d264e86f4d5d56055574, type: 3}
-  m_Name: ANIMBRUSH_BotLeak
+  m_Name: ANIMBRUSH_UpDraft
   m_EditorClassIdentifier: 
   Tileset: {fileID: 11400000, guid: 9c4d2bba4884da14498da1437e0a9afe, type: 2}
   Params:
@@ -18,32 +18,26 @@ MonoBehaviour:
   m_group: 0
   m_autotilingMode: 1
   m_showInPalette: 1
-  AnimFPS: 12
+  AnimFPS: 8
   AnimDelay: 0
   AnimFrames:
-  - tileId: 96
+  - tileId: 144
     UVOffset: {x: 0, y: 0}
-  - tileId: 97
+  - tileId: 145
     UVOffset: {x: 0, y: 0}
-  - tileId: 98
+  - tileId: 146
     UVOffset: {x: 0, y: 0}
-  - tileId: 99
+  - tileId: 147
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 148
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 149
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 150
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 151
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 152
     UVOffset: {x: 0, y: 0}
-  - tileId: 100
-    UVOffset: {x: 0, y: 0}
-  - tileId: 100
-    UVOffset: {x: 0, y: 0}
-  - tileId: 100
-    UVOffset: {x: 0, y: 0}
-  - tileId: 100
+  - tileId: 153
     UVOffset: {x: 0, y: 0}

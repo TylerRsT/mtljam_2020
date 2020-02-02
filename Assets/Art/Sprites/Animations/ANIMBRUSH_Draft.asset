@@ -9,13 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8e407e6aafc3440a04af21fd9b7ff1, type: 3}
-  m_Name: New RoadBrush
+  m_Script: {fileID: 11500000, guid: 3539b2508428d264e86f4d5d56055574, type: 3}
+  m_Name: ANIMBRUSH_Draft
   m_EditorClassIdentifier: 
-  Tileset: {fileID: 11400000, guid: c39c457bd2547d941879c8561de68361, type: 2}
+  Tileset: {fileID: 0}
   Params:
     m_paramList: []
   m_group: 0
   m_autotilingMode: 1
   m_showInPalette: 1
-  TileIds: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  AnimFPS: 4
+  AnimDelay: 0
+  AnimFrames: []

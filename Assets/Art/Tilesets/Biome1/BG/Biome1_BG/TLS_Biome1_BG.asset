@@ -17,7 +17,7 @@ MonoBehaviour:
   SliceOffset: {x: 0, y: 0}
   SlicePadding: {x: 0, y: 0}
   BackgroundColor: {r: 0.8039216, g: 0.8039216, b: 0.8039216, a: 0.8039216}
-  VisualTileSize: {x: 18.24, y: 18.24}
+  VisualTileSize: {x: 27.2, y: 27.2}
   VisualTilePadding: 1
   TileRowLength: 11
   m_tileViews: []
@@ -26,6 +26,102 @@ MonoBehaviour:
   m_brushes:
   - Id: 1
     BrushAsset: {fileID: 11400000, guid: 4df646aa81c888e4185629d867af6375, type: 2}
+  - Id: 2
+    BrushAsset: {fileID: 11400000, guid: 291149e8ae1c8904fa7025bb2058484b, type: 2}
+  - Id: 3
+    BrushAsset: {fileID: 11400000, guid: 72102710f2c070140b01e6b012619a79, type: 2}
+  - Id: 4
+    BrushAsset: {fileID: 11400000, guid: 02661f40def13a14da2f3608b344f81b, type: 2}
+  - Id: 5
+    BrushAsset: {fileID: 11400000, guid: 526187d048eebc3459f787b509a28c30, type: 2}
+  - Id: 6
+    BrushAsset: {fileID: 11400000, guid: c50c1371f53fe474e93f0c69e2f2e91b, type: 2}
+  - Id: 7
+    BrushAsset: {fileID: 11400000, guid: 13e2308177f27bb42b5fd8dc8ef2131e, type: 2}
+  - Id: 8
+    BrushAsset: {fileID: 11400000, guid: e2d10f02e3568f24c84d69597461efa7, type: 2}
+  - Id: 9
+    BrushAsset: {fileID: 11400000, guid: 5c803712cced19e4a91520b4fbf3d5f2, type: 2}
+  - Id: 10
+    BrushAsset: {fileID: 11400000, guid: c3dbdd63b1d57894c97a7edbbe3012e8, type: 2}
+  - Id: 11
+    BrushAsset: {fileID: 11400000, guid: 371350735a02756419cc305153ae578e, type: 2}
+  - Id: 12
+    BrushAsset: {fileID: 11400000, guid: 6f9d10b3e0b056340bd9e183da793e32, type: 2}
+  - Id: 13
+    BrushAsset: {fileID: 11400000, guid: 911e71b3465471c4bb0e6339f24cc262, type: 2}
+  - Id: 14
+    BrushAsset: {fileID: 11400000, guid: 7df693d39dd639140b472c89f45b7b8a, type: 2}
+  - Id: 15
+    BrushAsset: {fileID: 11400000, guid: fa89add3015685a42bc659970a70c43c, type: 2}
+  - Id: 16
+    BrushAsset: {fileID: 11400000, guid: 943587e33df86364799aae4471eb818d, type: 2}
+  - Id: 17
+    BrushAsset: {fileID: 11400000, guid: dab62d554619c0a44a650f639b046258, type: 2}
+  - Id: 18
+    BrushAsset: {fileID: 11400000, guid: 1da3f0a5f53ea694087164bd926bf1c5, type: 2}
+  - Id: 19
+    BrushAsset: {fileID: 11400000, guid: d7d8afa5e7742c049a77e9fbf6e8113c, type: 2}
+  - Id: 20
+    BrushAsset: {fileID: 11400000, guid: e3ebead553db84b4782bbe9b64d4d905, type: 2}
+  - Id: 21
+    BrushAsset: {fileID: 11400000, guid: 9ef22af57fbe6f8459448dfc04367fc8, type: 2}
+  - Id: 22
+    BrushAsset: {fileID: 11400000, guid: 5c57d666b9fd58a4e80ce767179e6782, type: 2}
+  - Id: 23
+    BrushAsset: {fileID: 11400000, guid: 6fb48ea630d3be045b562c18693984e1, type: 2}
+  - Id: 24
+    BrushAsset: {fileID: 11400000, guid: f9d6d8c666d305b41850197b41145233, type: 2}
+  - Id: 25
+    BrushAsset: {fileID: 11400000, guid: 51546457ff7313b48a8fec1e3bfb8af4, type: 2}
+  - Id: 26
+    BrushAsset: {fileID: 11400000, guid: 97a815571c99c5847bd3c826d21e2737, type: 2}
+  - Id: 27
+    BrushAsset: {fileID: 11400000, guid: edac91a7947290a46bc965ba3d646268, type: 2}
+  - Id: 28
+    BrushAsset: {fileID: 11400000, guid: a858f158c00d4514299e3a4f46eb3f43, type: 2}
+  - Id: 29
+    BrushAsset: {fileID: 11400000, guid: 6061e8891e95e6c43a57b498d6de5ecb, type: 2}
+  - Id: 30
+    BrushAsset: {fileID: 11400000, guid: 88b260c910da1c0418fd56589b8630bd, type: 2}
+  - Id: 31
+    BrushAsset: {fileID: 11400000, guid: 52b29e6aa208c8640b403e0f0806c50d, type: 2}
+  - Id: 32
+    BrushAsset: {fileID: 11400000, guid: 4ae7218a95d85544288553b6c6275ecc, type: 2}
+  - Id: 33
+    BrushAsset: {fileID: 11400000, guid: 8e36f79afc4c7bd41a82cd644ec5ad62, type: 2}
+  - Id: 34
+    BrushAsset: {fileID: 11400000, guid: e0bc2a9aa2137144a88c20a55f130667, type: 2}
+  - Id: 35
+    BrushAsset: {fileID: 11400000, guid: 17cac71b20bfbe140bffb78031ae75be, type: 2}
+  - Id: 36
+    BrushAsset: {fileID: 11400000, guid: 2c6ca91b129eb3a4d842b0ee8f2df581, type: 2}
+  - Id: 37
+    BrushAsset: {fileID: 11400000, guid: 62e64b8b81c9f8e4692d522b572e2db5, type: 2}
+  - Id: 38
+    BrushAsset: {fileID: 11400000, guid: 268aa79b2309fc44da30fb08a0889d10, type: 2}
+  - Id: 39
+    BrushAsset: {fileID: 11400000, guid: 753267fba775720479536d3fdde3252d, type: 2}
+  - Id: 40
+    BrushAsset: {fileID: 11400000, guid: d437845cb3f5932498078acbf97d7001, type: 2}
+  - Id: 41
+    BrushAsset: {fileID: 11400000, guid: 14e0d4ecadee0554e96b72ff4c3dd7bb, type: 2}
+  - Id: 42
+    BrushAsset: {fileID: 11400000, guid: 809f11fdf725dde41bdfb228dd0b6b79, type: 2}
+  - Id: 43
+    BrushAsset: {fileID: 11400000, guid: cd82710e53ede7649996264c86aeadc7, type: 2}
+  - Id: 44
+    BrushAsset: {fileID: 11400000, guid: a341942e885dc89478abfffbbb5b62bd, type: 2}
+  - Id: 45
+    BrushAsset: {fileID: 11400000, guid: 37c5ab2ee5f29cb469ce3145466bb813, type: 2}
+  - Id: 46
+    BrushAsset: {fileID: 11400000, guid: 067d7d4e0a36edb478a3741aace4ce16, type: 2}
+  - Id: 47
+    BrushAsset: {fileID: 11400000, guid: a320cffe24b424a43bf9d5df52119fb1, type: 2}
+  - Id: 48
+    BrushAsset: {fileID: 11400000, guid: bb872fafa0f50a64a8fbd0990265273c, type: 2}
+  - Id: 49
+    BrushAsset: {fileID: 11400000, guid: 08b97bdf86876254fa29f53ddf8e19b1, type: 2}
   m_tiles:
   - uv:
       serializedVersion: 2
@@ -1318,4 +1414,5 @@ MonoBehaviour:
   m_brushGroupAutotilingMatrix: 03000000030000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040000000800000000001000000020000000400000008000000100000002000000040
   m_brushTypeMaskOptions:
   - BrushFortySeven
-  m_brushTypeMask: -1
+  - RandomBrush
+  m_brushTypeMask: 1

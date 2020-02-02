@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3170428471500120420}
   - component: {fileID: 3170428471500120411}
   - component: {fileID: 3920504249795395387}
+  - component: {fileID: 5680586354505182682}
   m_Layer: 0
   m_Name: BreakableTile (9)
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3170428471500120416}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.267, y: 27.972, z: 0}
-  m_LocalScale: {x: 0.32, y: 0.16, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -72,7 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 21300000, guid: b49add3299d2f8a4e8230a7381570120, type: 3}
+  m_Sprite: {fileID: -7916595027084075177, guid: 81d7a8f4431e4c244b2d061844b1c80d,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -121,14 +123,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.16}
   m_EdgeRadius: 0
 --- !u!114 &3920504249795395387
 MonoBehaviour:
@@ -146,3 +148,41 @@ MonoBehaviour:
   _delayBeforeReappear: 3
   _disappearSpeed: 0.1
   _reappearSpeed: 0.1
+--- !u!114 &5680586354505182682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170428471500120416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a111613b7e1c6498923b16a649bc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - {fileID: 11400000, guid: 7b751a3bfdfdfc14dbffac18a27aff53, type: 2}
+  - {fileID: 11400000, guid: a339d39e51fcfb041b83d1e7c5e672a3, type: 2}
+  onFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  onStop:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  playOnAwake: 1
+  ignoreTimeScale: 0
+  delayBetweenLoops: 0
+  oneShot: 0
+  backwards: 0
+  randomAnimation: 0
+  disableRendererOnFinish: 0
+  startAtRandomFrame: 0
+  minDelayBetweenLoops: 0
+  maxDelayBetweenLoops: 2
+  startAnimation: ANIM_BreakablePlatformShake
+  loopType: 0
+  fallbackAnimation: {fileID: 0}
+  fallbackLoopType: 0
