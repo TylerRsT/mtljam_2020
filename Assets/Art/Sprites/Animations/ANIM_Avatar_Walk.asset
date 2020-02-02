@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
+  m_Name: ANIM_Avatar_Walk
+  m_EditorClassIdentifier: 
+  fps: 15
+  frames:
+  - {fileID: -5904802637664957823, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  - {fileID: -4310040661052678218, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  - {fileID: 7176640735711054322, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  - {fileID: -3939582532514215296, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  - {fileID: -4350571337608769348, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  - {fileID: -5580791282669477618, guid: a62bdbb62134afe46b802942b1c3f497, type: 3}
+  framesDuration: 010000000100000001000000010000000100000001000000
