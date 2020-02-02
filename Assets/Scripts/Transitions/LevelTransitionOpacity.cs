@@ -17,6 +17,7 @@ public class LevelTransitionOpacity : MonoBehaviour
         yield return new WaitForSeconds(_delay);
 
         _targetSprite.DOFade(1.0f, _duration);
+        _eventToPlay?.Post(gameObject);
     }
 
     [SerializeField]
@@ -26,5 +27,8 @@ public class LevelTransitionOpacity : MonoBehaviour
     private float _delay = 3.0f;
 
     [SerializeField]
-    private float _duration = 3.0f; 
+    private float _duration = 3.0f;
+
+    [SerializeField]
+    private AK.Wwise.Event _eventToPlay;
 }
