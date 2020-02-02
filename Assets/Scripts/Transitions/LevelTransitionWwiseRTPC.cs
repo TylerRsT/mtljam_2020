@@ -27,7 +27,7 @@ public class LevelTransitionWwiseRTPC : MonoBehaviour
         AkSoundEngine.GetRTPCValue(_rtpcKey, null, 0, out _currentValue, ref rtpcQueryValue);
 
         float diff = _rtpcValue - _currentValue;
-        Debug.Assert(diff == 0.0f, "Difference can not be 0.0f.");
+        //Debug.Assert(diff == 0.0f, "Difference can not be 0.0f.");
 
         _step = diff * Time.fixedDeltaTime / _duration;
     }
