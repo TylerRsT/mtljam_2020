@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f9a5d6024fe1940a5260111fed8bee, type: 3}
   m_Name: D1B268BB-8B77-4F39-B164-B9EE6BD1B146
   m_EditorClassIdentifier: 
-  objectName: PickupsAndMisc
-  id: 2557775459
+  objectName: Placeholder
+  id: 1548734028
   guid: D1B268BB-8B77-4F39-B164-B9EE6BD1B146

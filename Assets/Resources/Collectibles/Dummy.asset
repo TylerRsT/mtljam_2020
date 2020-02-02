@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6961890bbbb31eb43ab20c76f5f00ec9, type: 3}
   m_Name: Dummy
   m_EditorClassIdentifier: 
-  _speedBoost: 0.5
-  _speedBoostDuration: 10
-  _jumpForceBoost: 1.1
-  _jumpForceBoostDuration: 10
+  _speedBoost: 0.1
+  _speedBoostDuration: 2
+  _jumpForceBoost: 0.1
+  _jumpForceBoostDuration: 2
