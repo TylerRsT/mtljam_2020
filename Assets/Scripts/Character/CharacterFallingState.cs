@@ -1,4 +1,5 @@
 ﻿using CreativeSpore.SuperTilemapEditor;
+using Elendow.SpritedowAnimator;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,18 @@ public class CharacterFallingState : CharacterStateInstance
     #endregion
 
     #region Override
+
+    protected internal override void Enter(object arg = null)
+    {
+        base.Enter(arg);
+
+        var spriteAnimator = character.GetComponent<SpriteAnimator>();
+        var characterAnimator = character.GetComponent<CharacterAnimator>();
+        var spriteRenderer = character.GetComponent<SpriteRenderer>();
+        spriteAnimator.Stop();
+        spriteRenderer.sprite = characterAnimator.fallLoopAnimation.GetFrame(0);
+        
+    }
 
     /// <summary>
     /// 

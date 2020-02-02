@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Elendow.SpritedowAnimator;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -14,6 +15,10 @@ public class CharacterJumpingState : CharacterStateInstance
     protected internal override void Enter(object arg = null)
     {
         base.Enter(arg);
+
+        var spriteAnimator = character.GetComponent<SpriteAnimator>();
+        var characterAnimator = character.GetComponent<CharacterAnimator>();
+        spriteAnimator.Play(characterAnimator.jumpLoopAnimation, true);
 
         var multiplier = 1.0f;
         foreach(var boost in character.GetComponents<CollectibleBoost>())

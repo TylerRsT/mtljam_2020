@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1827662835145371996}
   - component: {fileID: 7245411317607998257}
   - component: {fileID: -369754994642844066}
+  - component: {fileID: 8224840079286588698}
   m_Layer: 0
   m_Name: Avatar
   m_TagString: Untagged
@@ -31,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827662835145371997}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.49, y: 1.88, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 886846532751628947}
@@ -239,6 +240,24 @@ MonoBehaviour:
   loopType: 0
   fallbackAnimation: {fileID: 0}
   fallbackLoopType: 0
+--- !u!114 &8224840079286588698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827662835145371997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40023bcd139486d47bc7b5b42077f9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleAnimation: {fileID: 11400000, guid: 6f133e94731ed5445900c325da741b31, type: 2}
+  movingAnimation: {fileID: 11400000, guid: 0d735bce01c44e04ca3c50227d36402b, type: 2}
+  jumpStartAnimation: {fileID: 11400000, guid: 762fef7ac4027db41a1ccf0fb048d89e, type: 2}
+  jumpLoopAnimation: {fileID: 11400000, guid: 762fef7ac4027db41a1ccf0fb048d89e, type: 2}
+  fallLoopAnimation: {fileID: 11400000, guid: 22a9a297a21bf5743a7d89549e7549f3, type: 2}
+  landAnimation: {fileID: 11400000, guid: 22a9a297a21bf5743a7d89549e7549f3, type: 2}
 --- !u!1 &4134303346314023257
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4134303346314023257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.052, y: -0.024, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1827662835145371987}
@@ -308,7 +327,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: 21300000, guid: f80bc8f31fd536c4bbdf8d8b0e0e9b48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d635a11ccc24c634c8ce42133a3d7f52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
