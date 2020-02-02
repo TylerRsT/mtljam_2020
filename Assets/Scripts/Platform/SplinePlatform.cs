@@ -22,7 +22,10 @@ public class SplinePlatform : MonoBehaviour
         }
 
         character.SetState(CharacterState.Falling);
-        character.rigidBody.velocity = new Vector2(character.rigidBody.velocity.x, _impulse);
+        if (character.GetComponent<CharacterInputLock>() == null)
+        {
+            character.rigidBody.velocity = new Vector2(character.rigidBody.velocity.x, _impulse);
+        }
     }
 
     /// <summary>
@@ -38,7 +41,10 @@ public class SplinePlatform : MonoBehaviour
         }
 
         character.SetState(CharacterState.Falling);
-        character.rigidBody.velocity = new Vector2(character.rigidBody.velocity.x, _exitImpulse);
+        if (character.GetComponent<CharacterInputLock>() == null)
+        {
+            character.rigidBody.velocity = new Vector2(character.rigidBody.velocity.x, _exitImpulse);
+        }
     }
 
     #endregion

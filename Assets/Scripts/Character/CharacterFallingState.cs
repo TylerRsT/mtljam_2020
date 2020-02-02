@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using CreativeSpore.SuperTilemapEditor;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -55,9 +56,17 @@ public class CharacterFallingState : CharacterStateInstance
         foreach (var raycastHit in raycastHits)
         {
             if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject
-                && raycastHit.collider.GetComponent<RepulsivePlatform>() == null
-                && raycastHit.collider.GetComponent<SplinePlatform>() == null)
+                && raycastHit.collider.GetComponent<RepulsivePlatform>() == null)
             {
+                var chunk = raycastHit.collider.GetComponent<TilemapChunk>();
+                if(chunk != null)
+                {
+                    if(chunk.ParentTilemap.GetComponent<SplinePlatform>())
+                    {
+                        continue;
+                    }
+                }
+
                 foreach(var characterInputLock in character.GetComponents<CharacterInputLock>())
                 {
                     GameObject.Destroy(characterInputLock);
