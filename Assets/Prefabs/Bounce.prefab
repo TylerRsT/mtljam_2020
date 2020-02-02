@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2117225266536405149}
   - component: {fileID: 2117225266536405150}
   - component: {fileID: 2117225266536405153}
+  - component: {fileID: -4880758599483559551}
   - component: {fileID: 1551484474450744693}
-  - component: {fileID: 3381443201344778705}
   m_Layer: 0
   m_Name: Bounce
   m_TagString: Untagged
@@ -132,6 +132,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-4880758599483559551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117225266536405146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a79a7e55a43de47b5a03a2b6f04d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bouncingForce: 2
 --- !u!114 &1551484474450744693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,19 +182,3 @@ MonoBehaviour:
   loopType: 0
   fallbackAnimation: {fileID: 0}
   fallbackLoopType: 0
---- !u!114 &3381443201344778705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2117225266536405146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0098db46f5f4cf7ab123cd4c39fd16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _delayBeforeBreak: 0.8
-  _delayBeforeReappear: 3
-  _disappearSpeed: 0.1
-  _reappearSpeed: 0.1
