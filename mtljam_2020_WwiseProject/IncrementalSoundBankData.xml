@@ -3,28 +3,34 @@
 	<Platform GUID="{A66DAB95-2C32-4326-8B51-6A422393FD84}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3140390986" Timestamp="1580575650"/>
-				<File Name="Placeholder" Hash="3075212436" Timestamp="1580593652"/>
-				<File Name="Steps" Hash="52740801" Timestamp="1580593832"/>
+				<File Name="CharacterDepthSoundSystem" Hash="4209385313" Timestamp="1580676256"/>
+				<File Name="Init" Hash="2212274357" Timestamp="1580670304"/>
+				<File Name="PickupsAndMisc" Hash="3189336836" Timestamp="1580674536"/>
+				<File Name="Placeholder" Hash="1132832302" Timestamp="1580606030"/>
+				<File Name="PlayerAction" Hash="1787205039" Timestamp="1580674536"/>
+				<File Name="Steps" Hash="2424126526" Timestamp="1580599902"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="503903973" Timestamp="1580593832"/>
+				<File Name="" Hash="3264817195" Timestamp="1580676256"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{5D8A9FD3-BDF7-4EF9-AE6A-214148EC889D}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2867850212" Timestamp="1580575649"/>
-				<File Name="Placeholder" Hash="3075212436" Timestamp="1580593651"/>
-				<File Name="Steps" Hash="52740801" Timestamp="1580593832"/>
+				<File Name="CharacterDepthSoundSystem" Hash="4209385313" Timestamp="1580676256"/>
+				<File Name="Init" Hash="645439459" Timestamp="1580670304"/>
+				<File Name="PickupsAndMisc" Hash="3189336836" Timestamp="1580674535"/>
+				<File Name="Placeholder" Hash="1132832302" Timestamp="1580606030"/>
+				<File Name="PlayerAction" Hash="1787205039" Timestamp="1580674535"/>
+				<File Name="Steps" Hash="2424126526" Timestamp="1580599901"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3094727231" Timestamp="1580593832"/>
+				<File Name="" Hash="1960406033" Timestamp="1580676256"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

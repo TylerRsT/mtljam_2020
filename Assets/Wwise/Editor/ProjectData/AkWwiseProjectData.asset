@@ -24,14 +24,14 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 69a4754f2e4c9242986479fb8042df94
     GuidInternal: 
-    m_lastTime: -8586209489762632913
+    m_lastTime: -8586209367355733211
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586209505025064499
+    m_lastTime: -8586209323512712680
     List:
     - name: CharacterDepthSoundSystem
       guid: c4821ea612400a45a2e4bad10d88a9f1
@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586209505941871480
+    m_lastTime: -8586209336137609413
     List:
     - name: Item_Pickup
       guid: 830428251826ac42bfd43c02b7479b53
@@ -88,6 +88,18 @@ MonoBehaviour:
       - ElementName: Play_CharacterTheme
         ObjectType: 3
       Path: Default Work Unit\Play_CharacterTheme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_credits
+      guid: 0aa9d144c001224e90856576ef7e6f9a
+      id: 2970769112
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_credits
+        ObjectType: 3
+      Path: Default Work Unit\Play_credits
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

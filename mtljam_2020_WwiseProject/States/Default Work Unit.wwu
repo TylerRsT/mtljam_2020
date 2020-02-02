@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{410AE8F3-6EE6-4499-9962-47224BD34772}" SchemaVersion="94">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{410AE8F3-6EE6-4499-9962-47224BD34772}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{410AE8F3-6EE6-4499-9962-47224BD34772}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Levels" ID="{13470771-25DE-4D07-B3AB-D43A4178B9E4}">
+					<ChildrenList>
+						<State Name="None" ID="{4308E1B6-2424-4B6F-BA0C-0996920DF1AC}"/>
+						<State Name="Level1" ID="{FD736586-EAA4-4DD0-A5FE-35154B04AEB1}"/>
+						<State Name="Level2" ID="{FF2EDC28-F4AC-42D1-892B-84ED32EE627A}"/>
+						<State Name="Level3" ID="{53310B8D-F470-4E3B-8449-336A63FF6328}"/>
+						<State Name="Level4" ID="{6D2ED4DE-B3F2-4DFF-B04D-989F24EB24B5}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{4308E1B6-2424-4B6F-BA0C-0996920DF1AC}"/>
+							<EndState Name="Level1" ID="{FD736586-EAA4-4DD0-A5FE-35154B04AEB1}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Level1" ID="{FD736586-EAA4-4DD0-A5FE-35154B04AEB1}"/>
+							<EndState Name="Level2" ID="{FF2EDC28-F4AC-42D1-892B-84ED32EE627A}"/>
+							<Time>1</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Level2" ID="{FF2EDC28-F4AC-42D1-892B-84ED32EE627A}"/>
+							<EndState Name="Level3" ID="{53310B8D-F470-4E3B-8449-336A63FF6328}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Level3" ID="{53310B8D-F470-4E3B-8449-336A63FF6328}"/>
+							<EndState Name="Level2" ID="{FF2EDC28-F4AC-42D1-892B-84ED32EE627A}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

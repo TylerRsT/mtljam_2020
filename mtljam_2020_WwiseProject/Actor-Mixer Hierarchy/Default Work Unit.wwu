@@ -25,28 +25,28 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>11.47048</XPos>
+												<XPos>13.764576</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>19.96413</XPos>
+												<XPos>23.956956</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>22.53095</XPos>
+												<XPos>27.03714</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>25.04564</XPos>
+												<XPos>30.054768</XPos>
 												<YPos>0</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>50</XPos>
-												<YPos>86</YPos>
+												<XPos>60</XPos>
+												<YPos>64</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -55,6 +55,9 @@
 							</RTPCList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-1260</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{94AC4D19-89C5-42ED-A19F-F2928CCFC9D1}" ShortID="232345371">
 									<ReferenceList>
@@ -69,17 +72,27 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>-363</YPos>
+												<YPos>473</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>10.412035</XPos>
-												<YPos>-411</YPos>
+												<XPos>24.274584</XPos>
+												<YPos>529</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>50</XPos>
-												<YPos>-2142</YPos>
+												<XPos>36.212136</XPos>
+												<YPos>38</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>39.423648</XPos>
+												<YPos>-4800</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-4800</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -89,8 +102,59 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>2</Value>
+								<Value>-4</Value>
 							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{B7DAAFE3-1CFB-4F3A-B4AD-02C5112CCE41}" ShortID="125216262">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C1E1F647-37DD-47B1-856F-A64675913FEC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.0012</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>20.1198</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>24.139692</XPos>
+												<YPos>0.23132</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>29.72366</XPos>
+												<YPos>0.10152</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>30.09849</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -104,10 +168,10 @@
 					<ChildrenList>
 						<AudioFileSource Name="BeepBox-Song" ID="{5C7A6760-DD10-4D62-9A71-C28917A862C8}" ShortID="435380055">
 							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.05062342745317"/>
-								<Property Name="LoopEnd" Type="Real64" Value="10.763"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.75103904575529"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.36390271176964"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="11.302"/>
+								<Property Name="TrimEnd" Type="Real64" Value="13.4907988071941"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>BeepBox-Song.wav</AudioFile>
@@ -115,93 +179,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="BeepBox-Song" ID="{5C7A6760-DD10-4D62-9A71-C28917A862C8}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="FirstLevelDrone" ID="{F1542907-58A6-4E3E-B5D2-A0DFF4F8AF69}" ShortID="799440695">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>230</Value>
-							</ValueList>
-							<RTPCList>
-								<RTPC Name="" ID="{41F062F3-B8CD-475C-B894-5BF532905E06}" ShortID="730252735">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{1083C9AC-0836-4CAB-9B96-D2A46DE97194}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-2898</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>50</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{F369D9A0-F25B-4D3F-9238-1A2096BB80B7}" ShortID="490065722">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{562659AF-6E40-45A3-A309-2CD9DAA7915E}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-1.27068</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>50</XPos>
-												<YPos>5.56992</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" ShortID="513890444">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="12.4761532010064"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="10.1998024415246"/>
-								<Property Name="LoopEnd" Type="Real64" Value="15.6717994595098"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>BeepBox-Drone.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="MYLOWSYNTH" ID="{1110237C-BF5E-4835-AFAA-71B7477A80D1}" ShortID="708420174">
@@ -279,6 +256,7 @@
 				</Sound>
 				<Sound Name="GnarlySprint" ID="{8A3B9DBE-19DD-42BC-8231-304ACD54031D}" ShortID="795203557">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>-859</Value>
@@ -297,12 +275,73 @@
 										<PointList>
 											<Point>
 												<XPos>0</XPos>
-												<YPos>456</YPos>
+												<YPos>-44</YPos>
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>50</XPos>
-												<YPos>-441</YPos>
+												<XPos>30.120924</XPos>
+												<YPos>-5</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-4800</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{357F143C-F949-43D9-9F56-B27AF7C1ADE6}" ShortID="254692644">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{45693923-B363-41A9-B5FD-92131E8FC867}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.94358</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.01781</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.01881</XPos>
+												<YPos>0.3784</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9.68649</XPos>
+												<YPos>0.13365</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9.68749</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -321,6 +360,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="BeepBox-Jam" ID="{710E735A-2975-4E1B-B8C9-5048DEBA0BC5}" ShortID="696194538">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="4.08876572546829"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="15.5623595191501"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>BeepBox-Jam.wav</AudioFile>
 						</AudioFileSource>
@@ -329,7 +373,15 @@
 						<ActiveSource Name="BeepBox-Jam" ID="{710E735A-2975-4E1B-B8C9-5048DEBA0BC5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="MainMenuTh eme" ID="{638DD561-96FC-4007-93A5-AF2A43B420E1}" ShortID="942544765">
+				<Sound Name="MainMenuTheme" ID="{638DD561-96FC-4007-93A5-AF2A43B420E1}" ShortID="942544765">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
@@ -352,34 +404,14 @@
 						<ActiveSource Name="MYFIRSTSONG" ID="{D00F57B1-F635-4BBD-A483-765990BBA9A0}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="CleanLoop" ID="{2891FBEC-6A20-44EB-89F0-4BE18B6CE3CE}" ShortID="886422761">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="CleanLoop" ID="{2EF0BB92-42B0-48E6-B6C0-3D20B0B0E6FC}" ShortID="574038500">
-							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="1.32"/>
-								<Property Name="LoopEnd" Type="Real64" Value="12.677"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>CleanLoop.wav</AudioFile>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="CleanLoop" ID="{2EF0BB92-42B0-48E6-B6C0-3D20B0B0E6FC}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<SwitchContainer Name="Environment" ID="{0153157B-5E97-4637-B58B-3B7B95A3ED04}" ShortID="596422530">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
@@ -904,7 +936,7 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<Sound Name="Bells&amp;Whistles" ID="{4714C322-EDC6-4170-9AC5-47DEAED9F654}" ShortID="85884550">
+				<Sound Name="Bells&amp;Whistles(levl4" ID="{4714C322-EDC6-4170-9AC5-47DEAED9F654}" ShortID="85884550">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
@@ -916,6 +948,67 @@
 							<ValueList>
 								<Value>-680</Value>
 							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{260E4D99-98F0-4A6A-A51B-9167E6B97CBE}" ShortID="273119874">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A07F7B5F-1836-4C00-8864-23E39DF2A329}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>3.82598</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>4.10911</XPos>
+												<YPos>0.48142</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.20589</XPos>
+												<YPos>0.53209</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>6.39498</XPos>
+												<YPos>-25.49854</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>9.60307</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>15.01878</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -939,6 +1032,44 @@
 				<Sound Name="DayBreakLoop(Seemslikeyouregaining" ID="{2C81FAAF-F20F-4F9A-B887-B5C2AF909AFD}" ShortID="865368472">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{C019942C-F1CC-4E8F-885B-92554B89FBC6}" ShortID="174444296">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BA5FDFF7-8B27-4546-879C-B6C53623E006}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.04651</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1.03922</XPos>
+												<YPos>0.09368</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>1.04022</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -964,21 +1095,11 @@
 						<ActiveSource Name="DayBreak(endOfLevel)" ID="{7650B6CC-940A-44E0-A0B5-9B6504B7475A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="New Sound SFX_02" ID="{A5489B31-1997-4F02-A378-B708935BA83F}" ShortID="800096273">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-						</Reference>
-					</ReferenceList>
-				</Sound>
 				<Sound Name="Jump" ID="{9B81FECE-9DB5-4704-B5A8-817653E79986}" ShortID="196454560">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-29</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1000,7 +1121,7 @@
 						<ActiveSource Name="Jump_1" ID="{6AEC1D02-41FA-421D-B5BA-9AE512AB51CB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="New Sound SFX" ID="{52757C38-AE3A-4A39-A011-5A29A144C7F1}" ShortID="420077087">
+				<Sound Name="SomeSortof ElectroBlip" ID="{52757C38-AE3A-4A39-A011-5A29A144C7F1}" ShortID="420077087">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
@@ -1083,7 +1204,14 @@
 						<ActiveSource Name="SoundSeed Air Wind" ID="{9456503F-FAAD-4CB2-8E95-83E020977C25}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="New Sound SFX_03" ID="{2D708A88-815E-406C-AD1D-E7EB1A238DF4}" ShortID="344903867">
+				<Sound Name="Whoosh" ID="{2D708A88-815E-406C-AD1D-E7EB1A238DF4}" ShortID="344903867">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
@@ -1095,6 +1223,9 @@
 					<ChildrenList>
 						<SourcePlugin Name="SoundSeed Air Woosh" ID="{94B29811-F0F1-44CA-9A63-CCF8F061BC42}" ShortID="710674109" PluginName="SoundSeed Air Woosh" CompanyID="0" PluginID="120">
 							<PropertyList>
+								<Property Name="Duration" Type="Real64" Value="3"/>
+								<Property Name="PlaybackRate" Type="Real32" Value="1.8"/>
+								<Property Name="Speed" Type="Real32" Value="1"/>
 								<Property Name="SpeedAutomate" Type="bool" Value="True"/>
 							</PropertyList>
 							<Language>SFX</Language>
@@ -1109,17 +1240,17 @@
 					<PointList>
 						<Point>
 							<XPos>0</XPos>
-							<YPos>0</YPos>
+							<YPos>83.52941</YPos>
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>0.25</XPos>
+							<XPos>1.5</XPos>
 							<YPos>100</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>0.5</XPos>
-							<YPos>0</YPos>
+							<XPos>3</XPos>
+							<YPos>8.23529</YPos>
 							<Flags>37</Flags>
 						</Point>
 					</PointList>
@@ -1152,6 +1283,760 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="SoundSeed Air Woosh" ID="{94B29811-F0F1-44CA-9A63-CCF8F061BC42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BounceBack" ID="{90B66515-9023-4964-8894-DB43F3317167}" ShortID="641789173">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>560</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bounce" ID="{521C306C-B260-4C63-81A9-80598E913660}" ShortID="711333245">
+							<Language>SFX</Language>
+							<AudioFile>Bounce.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bounce" ID="{521C306C-B260-4C63-81A9-80598E913660}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="New Blend Container" ID="{596EF60D-20E4-473E-8BA2-F8E6881BF119}" ShortID="501628557">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="DroneLevel1" ID="{F1542907-58A6-4E3E-B5D2-A0DFF4F8AF69}" ShortID="799440695">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{F053C7DC-CBA7-4BD1-B450-3AE7FD42C915}" ShortID="436458512">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{30998BAE-AD3B-49D1-9638-D3E2D4D7A693}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>230</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{41F062F3-B8CD-475C-B894-5BF532905E06}" ShortID="730252735">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1083C9AC-0836-4CAB-9B96-D2A46DE97194}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2898</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{F369D9A0-F25B-4D3F-9238-1A2096BB80B7}" ShortID="490065722">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{562659AF-6E40-45A3-A309-2CD9DAA7915E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>40.17726</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>40.17826</XPos>
+														<YPos>-0.125869948822865</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>40.17926</XPos>
+														<YPos>-0.12587</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.16645</XPos>
+														<YPos>0.0003</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.16745</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>0.55545</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" ShortID="513890444">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="12.4761532010064"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="10.1998024415246"/>
+										<Property Name="LoopEnd" Type="Real64" Value="25.3462901873078"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BeepBox-Drone.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BeepBox-Drone" ID="{B87C200B-A7C8-447F-91C7-7ED4F932F1C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Drone_Level2" ID="{07316D6D-503A-4ABE-A446-4466DECEEFE9}" ShortID="308300550">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{B4C9A85B-E7A1-4E9F-9FB6-E659E39FBF8C}" ShortID="932188719">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{64477AD0-2246-4317-8288-391C07A68140}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>38.08721</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>38.77962</XPos>
+														<YPos>-0.32781</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.19602</XPos>
+														<YPos>0.10882</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>50.19702</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BeepBox-Dronelvl2" ID="{0AC560D8-255D-433D-A6AD-9D759F21A9DB}" ShortID="846099399">
+									<Language>SFX</Language>
+									<AudioFile>BeepBox-Dronelvl2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BeepBox-Dronelvl2" ID="{0AC560D8-255D-433D-A6AD-9D759F21A9DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RunningTheme3" ID="{7D4232D1-3491-49D3-8CFD-6E1497A98033}" ShortID="519413701">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{C611663E-F3A1-4C04-9A74-BD0E20A76BED}" ShortID="150978984">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C805914F-31CB-4836-8E47-8C2048303136}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>9</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>13.764576</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>23.956956</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>27.03714</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>30.05477</XPos>
+														<YPos>17</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>64</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-960</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{FF440927-1863-4DB9-BFFB-8333F0B79C2F}" ShortID="211557588">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6F2FC350-E6CF-4601-B902-640B2B4BDC1F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.0012</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.66681</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20.66781</XPos>
+														<YPos>0.8463</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.10872</XPos>
+														<YPos>0.96128</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>25.10972</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-29.02037</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BeepBox-Song" ID="{9E2C04D2-2B04-4BC5-8140-B5D77D343C7C}" ShortID="936752696">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.75103904575529"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.36390271176964"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="13.4907988071941"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BeepBox-Song.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="435380055"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BeepBox-Song" ID="{9E2C04D2-2B04-4BC5-8140-B5D77D343C7C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GnarlySprint" ID="{AEFA29B7-D152-4984-89DB-5B451AEA67BF}" ShortID="58332788">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-859</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{8B003B83-3DA6-4C88-B55A-E5920289145C}" ShortID="747102923">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CA957BAB-FE0C-4698-9A5C-4C331CBFC5DB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-44</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>30.120924</XPos>
+														<YPos>-5</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-4800</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{A49704CC-8624-4DE3-B0D7-486527D2B833}" ShortID="90644513">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3780AA8B-3208-4D98-874E-4637CF426320}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1.46067</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1.46167</XPos>
+														<YPos>-0.07721</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4.76332</XPos>
+														<YPos>-0.16236</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>4.76432</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BeepBox-Jam" ID="{FE27C492-93C0-4B6F-90F4-C76F213820BA}" ShortID="369817697">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="4.08876572546829"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="15.5623595191501"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BeepBox-Jam.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="696194538"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BeepBox-Jam" ID="{FE27C492-93C0-4B6F-90F4-C76F213820BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bells&amp;Whistles(levl4)" ID="{2DFECB36-8358-4061-B707-071264910754}" ShortID="284900791">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-680</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4067F85F-A738-4E46-ACC5-35A7C4FD72AE}" ShortID="1001622316">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B6C3213E-5A76-420F-BE42-4EC6A5778255}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>2.22614</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2.22714</XPos>
+														<YPos>0.09391</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5.09339</XPos>
+														<YPos>0.31</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>5.09439</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>33.62203</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>38.30721</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SweetBellsAndWhistles" ID="{4927F78D-9AA9-4F61-BEE9-B3B4324A8DA8}" ShortID="590486568">
+									<Language>SFX</Language>
+									<AudioFile>SweetBellsAndWhistles.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="556404603"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SweetBellsAndWhistles" ID="{4927F78D-9AA9-4F61-BEE9-B3B4324A8DA8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{7D4ECF14-B977-4D1B-8427-5ED07946616C}" ShortID="413051799">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7E827706-776B-444E-9F7C-03467326D271}" ShortID="181824600">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F7556EDB-442A-4702-ADC7-C369A5130FDF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0.98436</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>60</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="GnarlySprint" ID="{AEFA29B7-D152-4984-89DB-5B451AEA67BF}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>26.6618536649215</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="RunningTheme3" ID="{7D4232D1-3491-49D3-8CFD-6E1497A98033}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>14.7246808900524</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>35.9997</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="Drone_Level2" ID="{07316D6D-503A-4ABE-A446-4466DECEEFE9}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>29.0572916230367</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>60</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<Sound Name="Pickup" ID="{F5AFC544-CD2A-42FB-8C89-7A20BA5C82C8}" ShortID="829947553">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Powerup22" ID="{ECDB88C3-F950-4389-AB22-1C0C17AAD02F}" ShortID="609497062">
+							<Language>SFX</Language>
+							<AudioFile>Powerup22.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Powerup22" ID="{ECDB88C3-F950-4389-AB22-1C0C17AAD02F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Footstep_Walking_Hardwood_01" ID="{51510152-1461-4F25-B84C-1AD330E3C505}" ShortID="65891956">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footstep_Walking_Hardwood_01" ID="{A7989744-B844-4FF0-B39F-1715E03802B7}" ShortID="692667786">
+							<Language>SFX</Language>
+							<AudioFile>WoodSolid\Footstep_Walking_Hardwood_01.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="380189587"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Footstep_Walking_Hardwood_01" ID="{A7989744-B844-4FF0-B39F-1715E03802B7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WoodBreaking" ID="{BDEDA12C-44D7-467E-9BF8-C162FE996410}" ShortID="54371460">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-23</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3" ID="{466BBEBB-182B-4612-ADAB-B7B820BC726F}" ShortID="894702507">
+							<Language>SFX</Language>
+							<AudioFile>Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3" ID="{466BBEBB-182B-4612-ADAB-B7B820BC726F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
