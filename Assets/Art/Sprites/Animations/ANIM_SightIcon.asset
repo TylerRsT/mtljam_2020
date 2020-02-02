@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
+  m_Name: ANIM_SightIcon
+  m_EditorClassIdentifier: 
+  fps: 4
+  frames:
+  - {fileID: -8915556989564808090, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -1400281003726825670, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -3594933282676822997, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -8184115955931331815, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -1663452786758285001, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: 8916764411542029434, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -2034316908883590558, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -3277488629184092510, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: 1766883978381225590, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: -676610345371120370, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  - {fileID: 8731443319560886278, guid: 835918648a735ff47a4f68c499e655ce, type: 3}
+  framesDuration: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
+  m_Name: ANIM_FreedomIcon
+  m_EditorClassIdentifier: 
+  fps: 4
+  frames:
+  - {fileID: 7588938275477678462, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: -8404640696576712557, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: 4549150381636061257, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: 6236904205940763673, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: 7471895151460514651, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: 5901211222951801410, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: -2062834510633240714, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: -1443627237195652841, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: -3596254939489710672, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: -4841310654375966007, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  - {fileID: 5140161112461316420, guid: 977eae68218d1a74984cc40ee98cf892, type: 3}
+  framesDuration: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000

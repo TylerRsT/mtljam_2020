@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: 9e075094affd9b94fab7388799fd1d87
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7449214810705161341
+    second: ASPR_CollectibleParticle_0
+  - first:
+      213: -4574608572554160830
+    second: ASPR_CollectibleParticle_1
+  - first:
+      213: 5034956811446511741
+    second: ASPR_CollectibleParticle_2
+  - first:
+      213: -1984533842949677454
+    second: ASPR_CollectibleParticle_3
+  - first:
+      213: -664129839142118475
+    second: ASPR_CollectibleParticle_4
+  - first:
+      213: 2807146233557519474
+    second: ASPR_CollectibleParticle_5
+  - first:
+      213: 5349186482603243508
+    second: ASPR_CollectibleParticle_6
+  - first:
+      213: 348218704692482976
+    second: ASPR_CollectibleParticle_7
+  - first:
+      213: -4924516243357361189
+    second: ASPR_CollectibleParticle_8
+  - first:
+      213: 4443808520687241145
+    second: ASPR_CollectibleParticle_9
+  - first:
+      213: 6932629480417895053
+    second: ASPR_CollectibleParticle_10
+  - first:
+      213: 8330145815688463723
+    second: ASPR_CollectibleParticle_11
+  - first:
+      213: 4217829393062184842
+    second: ASPR_CollectibleParticle_12
+  - first:
+      213: 5235419635815945892
+    second: ASPR_CollectibleParticle_13
+  - first:
+      213: 1071424780555397853
+    second: ASPR_CollectibleParticle_14
+  - first:
+      213: -7840216559377011813
+    second: ASPR_CollectibleParticle_15
+  - first:
+      213: 5496740024938439325
+    second: ASPR_CollectibleParticle_16
+  - first:
+      213: -8710132794598797385
+    second: ASPR_CollectibleParticle_17
+  - first:
+      213: 2070754579639362019
+    second: ASPR_CollectibleParticle_18
+  - first:
+      213: 5278288490402767682
+    second: ASPR_CollectibleParticle_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -84,7 +144,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ASPR_CollectibleParticle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e31004178328a4ea05c722d3a70614
+      internalID: 7449214810705161341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPR_CollectibleParticle_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80ebecd6b191cf42a48184e92d24f50
+      internalID: -4574608572554160830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPR_CollectibleParticle_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbda398816b60b449a60b8635547086
+      internalID: 5034956811446511741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPR_CollectibleParticle_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113bd664046dded41a8747db76c092fc
+      internalID: -1984533842949677454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPR_CollectibleParticle_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f695db9d4c9d7d043ad2a2601bfca9f0
+      internalID: -664129839142118475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
