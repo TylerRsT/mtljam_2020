@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using CreativeSpore.SuperTilemapEditor;
+using Elendow.SpritedowAnimator;
 using UnityEngine;
 
 /// <summary>
@@ -34,6 +35,8 @@ public class BreakablePlatform : PlatformBase
         if (!_coroutineTriggered)
         {
             _enterSound?.Post(gameObject);
+            var spriteAnimator = GetComponent<SpriteAnimator>();
+            spriteAnimator.Play();
             StartCoroutine(DelaySelfDestruction());
         }
     }
@@ -52,8 +55,14 @@ public class BreakablePlatform : PlatformBase
         _startBreakingSound?.Post(gameObject);
         yield return new WaitForSeconds(_delayBeforeBreak);
 
+        var spriteAnimator = GetComponent<SpriteAnimator>();
+        spriteAnimator.Play(spriteAnimator.animations[1], true, false);
+
         float elapsedTime = 0.0f;
         float startingA = _spriteRenderer.color.a;
+        _breakSound?.Post(gameObject);
+        _rigidBody.simulated = false;
+
         while (elapsedTime <= _disappearSpeed)
         {
             _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, Mathf.Lerp(startingA, 0.0f, elapsedTime / _disappearSpeed));
@@ -61,9 +70,6 @@ public class BreakablePlatform : PlatformBase
             yield return new WaitForSeconds(1.0f / 60.0f);
         }
         _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.0f);
-        _rigidBody.simulated = false;
-
-        _breakSound?.Post(gameObject);
 
         yield return new WaitForSeconds(_delayBeforeReappear);
 
@@ -77,6 +83,8 @@ public class BreakablePlatform : PlatformBase
         }
         _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, startingA);
         _rigidBody.simulated = true;
+
+        spriteAnimator.Play(spriteAnimator.animations[1], true, true);
 
         _coroutineTriggered = false;
         yield break;

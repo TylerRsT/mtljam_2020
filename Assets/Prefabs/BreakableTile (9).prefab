@@ -146,8 +146,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _delayBeforeBreak: 0.8
   _delayBeforeReappear: 3
-  _disappearSpeed: 0.1
-  _reappearSpeed: 0.1
+  _disappearSpeed: 0.3
+  _reappearSpeed: 0.3
+  _enterSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _startBreakingSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _breakSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _reappearSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &5680586354505182682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,7 +188,7 @@ MonoBehaviour:
   onPlay:
     m_PersistentCalls:
       m_Calls: []
-  playOnAwake: 1
+  playOnAwake: 0
   ignoreTimeScale: 0
   delayBetweenLoops: 0
   oneShot: 0
