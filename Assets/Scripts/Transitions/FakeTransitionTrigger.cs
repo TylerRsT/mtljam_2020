@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(BoxCollider2D))]
+[RequireComponent(typeof(Rigidbody2D))]
 public class FakeTransitionTrigger : MonoBehaviour
 {
     #region Messages
@@ -11,6 +12,7 @@ public class FakeTransitionTrigger : MonoBehaviour
     {
         _hasTriggered = false;
         GetComponent<Collider2D>().isTrigger = true;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
     }
 
     /// <summary>
@@ -19,10 +21,13 @@ public class FakeTransitionTrigger : MonoBehaviour
     /// <param name="collision"></param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!_hasTriggered)
+        if (collision.GetComponent<Character>() != null)
         {
-            gameObject.SendMessage("OnTransition", -1);
-            _hasTriggered = true;
+            if (!_hasTriggered)
+            {
+                gameObject.SendMessage("OnTransition", -1);
+                _hasTriggered = true;
+            }
         }
     }
 
