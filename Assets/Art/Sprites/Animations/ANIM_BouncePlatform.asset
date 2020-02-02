@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77f76fefc0e73d4184cf86fd1488e0f, type: 3}
   m_Name: ANIM_BouncePlatform
   m_EditorClassIdentifier: 
-  fps: 30
+  fps: 15
   frames:
   - {fileID: 4897161260425638724, guid: d387824cc12d20242bbf543ff20406a2, type: 3}
   - {fileID: 6803224036650750310, guid: d387824cc12d20242bbf543ff20406a2, type: 3}
