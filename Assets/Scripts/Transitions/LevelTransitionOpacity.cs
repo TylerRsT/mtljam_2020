@@ -1,18 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class LevelTransitionOpacity : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnTransition(int levelID)
     {
-        
+        Debug.Assert(_targetSprite != null);
+
+        StartCoroutine(Coroutine());
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator Coroutine()
     {
-        
+        yield return new WaitForSeconds(_delay);
+
+        _targetSprite.DOFade(1.0f, _duration);
     }
+
+    [SerializeField]
+    private SpriteRenderer _targetSprite;
+
+    [SerializeField]
+    private float _delay = 3.0f;
+
+    [SerializeField]
+    private float _duration = 3.0f; 
 }
