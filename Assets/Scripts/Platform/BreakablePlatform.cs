@@ -33,6 +33,7 @@ public class BreakablePlatform : PlatformBase
     {
         if (!_coroutineTriggered)
         {
+            _enterSound?.Post(gameObject);
             StartCoroutine(DelaySelfDestruction());
         }
     }
@@ -48,6 +49,7 @@ public class BreakablePlatform : PlatformBase
     private IEnumerator DelaySelfDestruction()
     {
         _coroutineTriggered = true;
+        _startBreakingSound?.Post(gameObject);
         yield return new WaitForSeconds(_delayBeforeBreak);
 
         float elapsedTime = 0.0f;
@@ -61,8 +63,11 @@ public class BreakablePlatform : PlatformBase
         _spriteRenderer.color = new Color(1.0f, 1.0f, 1.0f, 0.0f);
         _rigidBody.simulated = false;
 
+        _breakSound?.Post(gameObject);
+
         yield return new WaitForSeconds(_delayBeforeReappear);
 
+        _reappearSound?.Post(gameObject);
         elapsedTime = 0.0f;
         while (elapsedTime <= _reappearSpeed)
         {
@@ -104,6 +109,30 @@ public class BreakablePlatform : PlatformBase
     /// </summary>
     [SerializeField]
     private float _reappearSpeed = 0.1f;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _enterSound = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _startBreakingSound = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _breakSound = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _reappearSound = default;
 
     /// <summary>
     /// 

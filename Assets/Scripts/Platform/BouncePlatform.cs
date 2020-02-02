@@ -16,6 +16,7 @@ public class BouncePlatform : PlatformBase
     protected override void OnCharacterEnter(Character character, Collision2D collision)
     {
         character.SetState(CharacterState.Jumping, _bouncingForce);
+        _bounceSound?.Post(gameObject);
     }
 
     #endregion
@@ -27,6 +28,12 @@ public class BouncePlatform : PlatformBase
     /// </summary>
     [SerializeField]
     private float _bouncingForce = 1.0f;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _bounceSound = default;
 
     #endregion
 }
