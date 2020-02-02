@@ -17,47 +17,68 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c475192462602a4ca75e7bdec95bf0f4
     GuidInternal: 
-    m_lastTime: -8586210381460132842
+    m_lastTime: -8586210397390676090
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 69a4754f2e4c9242986479fb8042df94
     GuidInternal: 
-    m_lastTime: -8586210337526870701
+    m_lastTime: -8586209489762632913
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586210130459999388
+    m_lastTime: -8586209505025064499
     List:
-    - name: Placeholder
+    - name: CharacterDepthSoundSystem
+      guid: c4821ea612400a45a2e4bad10d88a9f1
+      id: 41478333
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharacterDepthSoundSystem
+        ObjectType: 7
+      Path: Default Work Unit\CharacterDepthSoundSystem
+    - name: PickupsAndMisc
       guid: bb68b2d1778b394fb164b9ee6bd1b146
-      id: 1548734028
+      id: 2557775459
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Placeholder
+      - ElementName: PickupsAndMisc
         ObjectType: 7
-      Path: Default Work Unit\Placeholder
-    - name: Steps
+      Path: Default Work Unit\PickupsAndMisc
+    - name: PlayerAction
       guid: 94cbf12d37e7e542887b8e1b818ccbd4
-      id: 1718617278
+      id: 1982215484
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Steps
+      - ElementName: PlayerAction
         ObjectType: 7
-      Path: Default Work Unit\Steps
+      Path: Default Work Unit\PlayerAction
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586210130459779977
+    m_lastTime: -8586209505941871480
     List:
+    - name: Item_Pickup
+      guid: 830428251826ac42bfd43c02b7479b53
+      id: 566396871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Item_Pickup
+        ObjectType: 3
+      Path: Default Work Unit\Item_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.584376
+      minDuration: 0.584376
     - name: Play_CharacterTheme
       guid: 7da42a6dfc26064b986b5f27be60e9bc
       id: 227758706
@@ -106,12 +127,48 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.348571
       minDuration: 0.348571
+    - name: Play_music
+      guid: 623d7068bbd29e47aec21876e352d98d
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_music
+        ObjectType: 3
+      Path: Default Work Unit\Play_music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Whoosh
+      guid: 980d4aebff046849b011dc48c952e831
+      id: 148817996
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Whoosh
+        ObjectType: 3
+      Path: Default Work Unit\Play_Whoosh
+      maxAttenuation: 0
+      maxDuration: 1.666667
+      minDuration: 1.666667
+    - name: Play_WoodBreak
+      guid: 57267c28ba43d7449152c27757831bce
+      id: 1051522630
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_WoodBreak
+        ObjectType: 3
+      Path: Default Work Unit\Play_WoodBreak
+      maxAttenuation: 0
+      maxDuration: 3.846553
+      minDuration: 3.846553
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 733f18576ff97c46ad562d786887b4cb
     GuidInternal: 
-    m_lastTime: -8586210310260116067
+    m_lastTime: -8586209456759564222
     List:
     - name: Depth
       guid: d6930046ab0faf478d7fbe7aea9b775d
@@ -127,14 +184,57 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f3e80a41e66e9944996247224bd34772
     GuidInternal: 
-    m_lastTime: -8586210381460162771
-    List: []
+    m_lastTime: -8586209611863365662
+    List:
+    - name: Levels
+      guid: 71074713de25074db3abd43a4178b9e4
+      id: 2678230316
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Levels
+        ObjectType: 9
+      Path: Default Work Unit\Levels
+      values:
+      - name: Level1
+        guid: 866573fda4ead04da5fe35154b04aeb1
+        id: 2678230382
+        PathAndIcons:
+        - ElementName: Level1
+          ObjectType: 8
+      - name: Level2
+        guid: 28dc2effacf4d142892b84ed32ee627a
+        id: 2678230381
+        PathAndIcons:
+        - ElementName: Level2
+          ObjectType: 8
+      - name: Level3
+        guid: 8d0b315370f43b4e8449336a63ff6328
+        id: 2678230380
+        PathAndIcons:
+        - ElementName: Level3
+          ObjectType: 8
+      - name: Level4
+        guid: ded42e6df2b3ff4db04d989f24eb24b5
+        id: 2678230379
+        PathAndIcons:
+        - ElementName: Level4
+          ObjectType: 8
+      - name: None
+        guid: b6e1084324246f4bba0c0996920df1ac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 856a2e0733554a418c8106bcaad54d28
     GuidInternal: 
-    m_lastTime: -8586210168427120892
+    m_lastTime: -8586209611863285597
     List:
     - name: Environment
       guid: f3edf35ee0699b4cb1c4aae0dc4346ff
@@ -179,12 +279,49 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Level_Music_Switch
+      guid: e340592def3c5d42a051578f4d915f1e
+      id: 1501913280
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level_Music_Switch
+        ObjectType: 11
+      Path: Default Work Unit\Level_Music_Switch
+      values:
+      - name: New_Switch_01
+        guid: 006b2bfed900ab4e9a6729fc2881572d
+        id: 3952450474
+        PathAndIcons:
+        - ElementName: New_Switch_01
+          ObjectType: 10
+      - name: New_Switch_02
+        guid: 0a84c2d6381c4046a04d2c2d8267d85b
+        id: 3952450473
+        PathAndIcons:
+        - ElementName: New_Switch_02
+          ObjectType: 10
+      - name: New_Switch_03
+        guid: 68d17c08fa6fbe4f8eaa2665b5754006
+        id: 3952450472
+        PathAndIcons:
+        - ElementName: New_Switch_03
+          ObjectType: 10
+      - name: New_Switch_04
+        guid: 1274aeb6c6de6b49b03ab922f31d5f6d
+        id: 3952450479
+        PathAndIcons:
+        - ElementName: New_Switch_04
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c48a49af27c5d448bd71a076953bfd72
     GuidInternal: 
-    m_lastTime: -8586210381460142816
+    m_lastTime: -8586210397390366915
     List: []
   ExpandedItems:
   - /mtljam_2020_WwiseProject
