@@ -523,6 +523,7 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols:
     1: SUPER_TILEMAP_EDITOR
+    13: SUPER_TILEMAP_EDITOR
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
