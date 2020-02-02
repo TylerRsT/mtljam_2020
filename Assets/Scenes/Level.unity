@@ -2444,7 +2444,7 @@ MonoBehaviour:
   - {fileID: 542354480}
   - {fileID: 1004872200}
   - {fileID: 187511429}
-  m_selectedIndex: 10
+  m_selectedIndex: 7
   m_unselectedColorMultiplier: 1
   m_defaultTilemapWindowVisible: 0
   m_displayTilemapRList: 0
@@ -10799,12 +10799,12 @@ PrefabInstance:
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.01
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.06
+      value: 53.84
       objectReference: {fileID: 0}
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
