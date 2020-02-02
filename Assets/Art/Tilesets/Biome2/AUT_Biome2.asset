@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1b0bc9a66960e14b82805b45d9c4863, type: 3}
   m_Name: AUT_Biome2
   m_EditorClassIdentifier: 
-  Tileset: {fileID: 11400000, guid: 45cea20b0cb1abf429b7f00925d693c0, type: 2}
+  Tileset: {fileID: 11400000, guid: 31d41efdda8bf2942929ebcb07cc3a9e, type: 2}
   Params:
     m_paramList: []
   m_group: 1

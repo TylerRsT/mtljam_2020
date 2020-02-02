@@ -37,6 +37,9 @@ public class Collectible : MonoBehaviour
         {
             var boost = character.gameObject.AddComponent<CollectibleBoost>();
             boost.definition = _definition;
+
+            _collectedEvent?.Post(gameObject);
+
             Destroy(gameObject);
         }
     }
@@ -50,6 +53,12 @@ public class Collectible : MonoBehaviour
     /// </summary>
     [SerializeField]
     private CollectibleDefinition _definition = default;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [SerializeField]
+    private AK.Wwise.Event _collectedEvent = default;
 
     #endregion
 }
