@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71f9a5d6024fe1940a5260111fed8bee, type: 3}
-  m_Name: D1B268BB-8B77-4F39-B164-B9EE6BD1B146
+  m_Script: {fileID: 11500000, guid: 5206fc04ff8cda64bbc0d5f923f94371, type: 3}
+  m_Name: EB4A0D98-04FF-4968-B011-DC48C952E831
   m_EditorClassIdentifier: 
-  objectName: PickupsAndMisc
-  id: 2557775459
-  guid: D1B268BB-8B77-4F39-B164-B9EE6BD1B146
+  objectName: Play_Whoosh
+  id: 148817996
+  guid: EB4A0D98-04FF-4968-B011-DC48C952E831

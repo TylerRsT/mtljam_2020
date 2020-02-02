@@ -147,7 +147,8 @@ MonoBehaviour:
   _collectedEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c002143af6776c3408fe8ba717cf4fc1,
+      type: 2}
 --- !u!114 &757602844225521857
 MonoBehaviour:
   m_ObjectHideFlags: 0
