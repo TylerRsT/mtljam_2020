@@ -54,8 +54,13 @@ public class CharacterFallingState : CharacterStateInstance
         var raycastHits = Physics2D.RaycastAll(position, Vector2.down, RaycastDistance);
         foreach (var raycastHit in raycastHits)
         {
-            if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject)
+            if (raycastHit.collider != null && raycastHit.collider.gameObject != character.gameObject
+                && raycastHit.collider.GetComponent<RepulsivePlatform>() == null)
             {
+                foreach(var characterInputLock in character.GetComponents<CharacterInputLock>())
+                {
+                    GameObject.Destroy(characterInputLock);
+                }
                 character.SetState(CharacterState.Idle);
                 if (_soundPostDelay == 0.0f)
                 {

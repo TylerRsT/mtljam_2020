@@ -29,7 +29,7 @@ public class BreakablePlatform : PlatformBase
     /// 
     /// </summary>
     /// <param name="character"></param>
-    protected override void OnCharacterEnter(Character character)
+    protected override void OnCharacterEnter(Character character, Collision2D collision)
     {
         if (!_coroutineTriggered)
         {

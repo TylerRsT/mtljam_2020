@@ -15,21 +15,31 @@ public abstract class PlatformBase : MonoBehaviour
     {
         Character character = collision.gameObject.GetComponent<Character>();
 
-        if (character != null && collision.contacts.First().normal == Vector2.down)
+        if (character != null && AcceptsCollision(collision))
         {
-            OnCharacterEnter(character);
+            OnCharacterEnter(character, collision);
         }
     }
 
     #endregion
 
-    #region Abstract
+    #region Methods
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="collision"></param>
+    /// <returns></returns>
+    protected virtual bool AcceptsCollision(Collision2D collision)
+    {
+        return collision.contacts.First().normal == Vector2.down;
+    }
 
     /// <summary>
     /// 
     /// </summary>
     /// <param name="character"></param>
-    protected abstract void OnCharacterEnter(Character character);
+    protected abstract void OnCharacterEnter(Character character, Collision2D collision);
 
     #endregion
 }
