@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	227758706	Play_CharacterTheme			\Default Work Unit\Play_CharacterTheme	
+	2970769112	Play_credits			\Default Work Unit\Play_credits	
+	4042141136	Play_Drone			\Default Work Unit\Play_Drone	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	681025064	Depth			\Default Work Unit\Depth	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17476001	MainMenuTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\MYFIRSTSONG_B2CC7C7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenuTheme		9019520
+	221710098	DayBreakLoop(Seemslikeyouregaining	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\DayBreak(endOfLevel)_F1789E6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\DayBreakLoop(Seemslikeyouregaining		5253920
+	435380055	RunningTheme3	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_1F66AD8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Blend Container\RunningTheme3		2379840
+	513890444	DroneLevel1	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_E1BF0818.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Blend Container\DroneLevel1		4509824
+	556404603	Bells&Whistles(levl4	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\SweetBellsAndWhistles_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bells&Whistles(levl4		8202304
+	696194538	GnarlySprint	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Jam_A066806B.wem		\Actor-Mixer Hierarchy\Default Work Unit\GnarlySprint		6764608
+	846099399	Drone_Level2	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Dronelvl2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\New Blend Container\Drone_Level2		4509760
+

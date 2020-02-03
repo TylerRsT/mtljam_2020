@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	566396871	Item_Pickup			\Default Work Unit\Item_Pickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	609497062	Pickup	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Powerup22_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pickup		51606
+

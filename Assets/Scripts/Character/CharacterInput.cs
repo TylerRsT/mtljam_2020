@@ -14,6 +14,7 @@ public class CharacterInput : MonoBehaviour
     private const string RightMoveInputName = "Right";
     private const string LeftMoveInputName = "Left";
     private const string JumpInputName = "Jump";
+    private const string ExitGameInputName = "ExitGame";
 
     #endregion
 
@@ -32,6 +33,13 @@ public class CharacterInput : MonoBehaviour
     /// </summary>
     private void Update()
     {
+#if !UNITY_EDITOR
+        if(Input.GetButtonDown(ExitGameInputName))
+        {
+            Application.Quit();
+        }
+#endif // UNITY_EDITOR
+
         if (Input.GetButton(RightMoveInputName))
         {
             _character.Move(1.0f);

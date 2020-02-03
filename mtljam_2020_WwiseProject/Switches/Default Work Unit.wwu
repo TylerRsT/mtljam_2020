@@ -12,6 +12,14 @@
 						<Switch Name="Wood" ID="{133E2B7B-F29C-442F-AC26-40AE6C95F7D0}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Level_Music_Switch" ID="{2D5940E3-3CEF-425D-A051-578F4D915F1E}">
+					<ChildrenList>
+						<Switch Name="New_Switch_01" ID="{FE2B6B00-00D9-4EAB-9A67-29FC2881572D}"/>
+						<Switch Name="New_Switch_02" ID="{D6C2840A-1C38-4640-A04D-2C2D8267D85B}"/>
+						<Switch Name="New_Switch_03" ID="{087CD168-6FFA-4FBE-8EAA-2665B5754006}"/>
+						<Switch Name="New_Switch_04" ID="{B6AE7412-DEC6-496B-B03A-B922F31D5F6D}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

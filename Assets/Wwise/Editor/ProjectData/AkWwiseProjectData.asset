@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c475192462602a4ca75e7bdec95bf0f4
     GuidInternal: 
-    m_lastTime: -8586210397390676090
+    m_lastTime: -8586210324559976539
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 69a4754f2e4c9242986479fb8042df94
     GuidInternal: 
-    m_lastTime: -8586209489762632913
+    m_lastTime: -8586209301731777540
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586209505025064499
+    m_lastTime: -8586209301730525806
     List:
     - name: CharacterDepthSoundSystem
       guid: c4821ea612400a45a2e4bad10d88a9f1
@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586209505941871480
+    m_lastTime: -8586209301732420909
     List:
     - name: Item_Pickup
       guid: 830428251826ac42bfd43c02b7479b53
@@ -77,8 +77,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Item_Pickup
       maxAttenuation: 0
-      maxDuration: 0.584376
-      minDuration: 0.584376
+      maxDuration: -1
+      minDuration: -1
     - name: Play_CharacterTheme
       guid: 7da42a6dfc26064b986b5f27be60e9bc
       id: 227758706
@@ -88,6 +88,18 @@ MonoBehaviour:
       - ElementName: Play_CharacterTheme
         ObjectType: 3
       Path: Default Work Unit\Play_CharacterTheme
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_credits
+      guid: 0aa9d144c001224e90856576ef7e6f9a
+      id: 2970769112
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_credits
+        ObjectType: 3
+      Path: Default Work Unit\Play_credits
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -113,8 +125,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_FootSteps
       maxAttenuation: 0
-      maxDuration: 0.491701
-      minDuration: 0.226063
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Jump
       guid: d2b16cb0e3e2bb47b0a7670aa7a15fbe
       id: 3689126666
@@ -125,8 +137,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_Jump
       maxAttenuation: 0
-      maxDuration: 0.348571
-      minDuration: 0.348571
+      maxDuration: -1
+      minDuration: -1
     - name: Play_music
       guid: 623d7068bbd29e47aec21876e352d98d
       id: 2932040671
@@ -149,8 +161,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_Whoosh
       maxAttenuation: 0
-      maxDuration: 1.666667
-      minDuration: 1.666667
+      maxDuration: -1
+      minDuration: -1
     - name: Play_WoodBreak
       guid: 57267c28ba43d7449152c27757831bce
       id: 1051522630
@@ -161,14 +173,14 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_WoodBreak
       maxAttenuation: 0
-      maxDuration: 3.846553
-      minDuration: 3.846553
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 733f18576ff97c46ad562d786887b4cb
     GuidInternal: 
-    m_lastTime: -8586209456759564222
+    m_lastTime: -8586209301732390982
     List:
     - name: Depth
       guid: d6930046ab0faf478d7fbe7aea9b775d
@@ -184,7 +196,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f3e80a41e66e9944996247224bd34772
     GuidInternal: 
-    m_lastTime: -8586209611863365662
+    m_lastTime: -8586209301730236582
     List:
     - name: Levels
       guid: 71074713de25074db3abd43a4178b9e4
@@ -234,7 +246,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 856a2e0733554a418c8106bcaad54d28
     GuidInternal: 
-    m_lastTime: -8586209611863285597
+    m_lastTime: -8586209301730146822
     List:
     - name: Environment
       guid: f3edf35ee0699b4cb1c4aae0dc4346ff
@@ -321,7 +333,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c48a49af27c5d448bd71a076953bfd72
     GuidInternal: 
-    m_lastTime: -8586210397390366915
+    m_lastTime: -8586210324559986506
     List: []
   ExpandedItems:
   - /mtljam_2020_WwiseProject

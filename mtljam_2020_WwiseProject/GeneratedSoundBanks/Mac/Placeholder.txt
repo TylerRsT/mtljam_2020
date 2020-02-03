@@ -6,6 +6,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	681025064	Depth			\Default Work Unit\Depth	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	435380055	RunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_0F668CB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\RunningTheme		1993800
-	513890444	FirstLevelDrone	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_1C3B5A66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FirstLevelDrone		4509824
+	221710098	DayBreakLoop(Seemslikeyouregaining	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\DayBreak(endOfLevel)_7B6C6555.wem		\Actor-Mixer Hierarchy\Default Work Unit\DayBreakLoop(Seemslikeyouregaining		5253920
+	435380055	RunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Song_693D778B.wem		\Actor-Mixer Hierarchy\Default Work Unit\RunningTheme		2379840
+	513890444	DroneLevel1	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Drone_1C3B5A66.wem		\Actor-Mixer Hierarchy\Default Work Unit\DroneLevel1		4509824
+	696194538	GnarlySprint	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Jam_5808D917.wem		\Actor-Mixer Hierarchy\Default Work Unit\GnarlySprint		6764608
+	846099399	Drone_Level2	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\BeepBox-Dronelvl2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drone_Level2		4509760
 
