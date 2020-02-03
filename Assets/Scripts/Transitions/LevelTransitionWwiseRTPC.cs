@@ -15,7 +15,7 @@ public class LevelTransitionWwiseRTPC : MonoBehaviour
     /// <param name="levelID"></param>
     private void OnTransition(int levelID)
     {
-        Debug.Assert(!string.IsNullOrWhiteSpace(_rtpcKey), "RTPC Key not set.");
+        /*Debug.Assert(!string.IsNullOrWhiteSpace(_rtpcKey), "RTPC Key not set.");
         if(_duration == 0.0f)
         {
             AkSoundEngine.SetRTPCValue(_rtpcKey, _rtpcValue);
@@ -29,7 +29,7 @@ public class LevelTransitionWwiseRTPC : MonoBehaviour
         float diff = _rtpcValue - _currentValue;
         //Debug.Assert(diff == 0.0f, "Difference can not be 0.0f.");
 
-        _step = diff * Time.fixedDeltaTime / _duration;
+        _step = diff * Time.fixedDeltaTime / _duration;*/
     }
 
     /// <summary>
@@ -37,7 +37,7 @@ public class LevelTransitionWwiseRTPC : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        if(!_transitionStarted)
+        /*if(!_transitionStarted)
         {
             return;
         }
@@ -53,7 +53,7 @@ public class LevelTransitionWwiseRTPC : MonoBehaviour
 
         _currentValue += _step;
         Debug.Log(_currentValue);
-        AkSoundEngine.SetRTPCValue(_rtpcKey, _currentValue);
+        AkSoundEngine.SetRTPCValue(_rtpcKey, _currentValue);*/
     }
 
     #endregion
