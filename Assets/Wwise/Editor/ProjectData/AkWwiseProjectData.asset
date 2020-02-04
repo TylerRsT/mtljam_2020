@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c475192462602a4ca75e7bdec95bf0f4
     GuidInternal: 
-    m_lastTime: -8586210397390676090
+    m_lastTime: -8586210324559976539
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 69a4754f2e4c9242986479fb8042df94
     GuidInternal: 
-    m_lastTime: -8586209367355733211
+    m_lastTime: -8586209301731777540
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b7370e4db490034a9fe921e986b8ecec
     GuidInternal: 
-    m_lastTime: -8586209323512712680
+    m_lastTime: -8586209301730525806
     List:
     - name: CharacterDepthSoundSystem
       guid: c4821ea612400a45a2e4bad10d88a9f1
@@ -180,7 +180,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 733f18576ff97c46ad562d786887b4cb
     GuidInternal: 
-    m_lastTime: -8586209456759564222
+    m_lastTime: -8586209301732390982
     List:
     - name: Depth
       guid: d6930046ab0faf478d7fbe7aea9b775d
@@ -196,7 +196,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f3e80a41e66e9944996247224bd34772
     GuidInternal: 
-    m_lastTime: -8586209611863365662
+    m_lastTime: -8586209301730236582
     List:
     - name: Levels
       guid: 71074713de25074db3abd43a4178b9e4
@@ -246,7 +246,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 856a2e0733554a418c8106bcaad54d28
     GuidInternal: 
-    m_lastTime: -8586209611863285597
+    m_lastTime: -8586209301730146822
     List:
     - name: Environment
       guid: f3edf35ee0699b4cb1c4aae0dc4346ff
@@ -333,11 +333,11 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c48a49af27c5d448bd71a076953bfd72
     GuidInternal: 
-    m_lastTime: -8586210397390366915
+    m_lastTime: -8586210324559986506
     List: []
   ExpandedItems:
   - /mtljam_2020_WwiseProject
   - /mtljam_2020_WwiseProject/Events
   - /mtljam_2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
-  CurrentPluginConfig: Profile
+  CurrentPluginConfig: Release
