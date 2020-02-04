@@ -5140,7 +5140,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: fdd0e974cef126446a1a01c82f50cff9,
+      type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -11202,8 +11203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rtpcKey: Depth
-  _rtpcValue: 3.46
-  _duration: 1
+  _rtpcValue: 27.941
+  _duration: 0
 --- !u!114 &886725408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12041,12 +12042,12 @@ PrefabInstance:
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.19
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.245
+      value: -1.08
       objectReference: {fileID: 0}
     - target: {fileID: 1827662835145371987, guid: c1fcf22bcb30e3440896d8276fc2f143,
         type: 3}
@@ -13179,7 +13180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rtpcKey: Depth
-  _rtpcValue: 39
+  _rtpcValue: 50.219
   _duration: 1
 --- !u!114 &1006414464
 MonoBehaviour:
@@ -20222,7 +20223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rtpcKey: Depth
-  _rtpcValue: 24.357
+  _rtpcValue: 48.777
   _duration: 1
 --- !u!114 &1596149934
 MonoBehaviour:
@@ -21389,7 +21390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rtpcKey: Depth
-  _rtpcValue: 39
+  _rtpcValue: 50.219
   _duration: 1
 --- !u!114 &1687679143
 MonoBehaviour:
@@ -22671,7 +22672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rtpcKey: Depth
-  _rtpcValue: 2.857
+  _rtpcValue: 14.959
   _duration: 1
 --- !u!114 &1871151020
 MonoBehaviour:

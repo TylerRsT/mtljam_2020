@@ -18,22 +18,22 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	710674109	SoundSeed Air Woosh	SoundSeed Air Woosh		\Actor-Mixer Hierarchy\Default Work Unit\Whoosh\SoundSeed Air Woosh	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105928663	Footstep_Walking_Hardwood_04	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_04		21766
-	156882047	AK_FS_Run_Gravel_01	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_01		24616
-	235142000	grass_01	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_01		41024
-	285781453	Footstep_Walking_Hardwood_02	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_02		24892
-	348827470	grass_03	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_03		43072
-	380189587	Footstep_Walking_Hardwood_01	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_01		22572
-	530565393	grass_04	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_04		41024
-	636179205	AK_FS_Run_Gravel_02	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_02		25634
-	663923647	Footstep_Walking_Hardwood_05	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_05		28428
-	694556251	FS_Dirt_04	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_04		40334
-	765792482	FS_Dirt_02	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_02		42518
-	826516011	FS_Dirt_03	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_03		43432
-	867583179	Jump	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Jump_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		61552
-	894702507	WoodBreaking	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodBreaking		678596
-	920676940	grass_02	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_02		41024
-	971684996	Footstep_Walking_Hardwood_03	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_03		24892
-	979107240	FS_Dirt_01	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_01		35712
-	1021418686	AK_FS_Run_Gravel_03	C:\Users\Ol Screamer\Desktop\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_03		24506
+	105928663	Footstep_Walking_Hardwood_04	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_04		21766
+	156882047	AK_FS_Run_Gravel_01	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_01		24616
+	235142000	grass_01	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_01		41024
+	285781453	Footstep_Walking_Hardwood_02	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_02		24892
+	348827470	grass_03	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_03		43072
+	380189587	Footstep_Walking_Hardwood_01	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_01		22572
+	530565393	grass_04	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_04		41024
+	636179205	AK_FS_Run_Gravel_02	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_02		25634
+	663923647	Footstep_Walking_Hardwood_05	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_05		28428
+	694556251	FS_Dirt_04	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_04		40334
+	765792482	FS_Dirt_02	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_02		42518
+	826516011	FS_Dirt_03	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_03		43432
+	867583179	Jump	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Jump_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		61552
+	894702507	WoodBreaking	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WoodBreaking		678596
+	920676940	grass_02	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Grass\grass_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Grass\grass_02		41024
+	971684996	Footstep_Walking_Hardwood_03	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\WoodSolid\Footstep_Walking_Hardwood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WoodSolid\Footstep_Walking_Hardwood_03		24892
+	979107240	FS_Dirt_01	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Dirt\FS_Dirt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Dirt\FS_Dirt_01		35712
+	1021418686	AK_FS_Run_Gravel_03	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Mac\SFX\Gravel\AK_FS_Run_Gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Gravel\AK_FS_Run_Gravel_03		24506
 

@@ -65,7 +65,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f2309509e2e02649bea9dae815e6898d
     GuidInternal: 
-    m_lastTime: -8586209336137609413
+    m_lastTime: -8586208243757596272
     List:
     - name: Item_Pickup
       guid: 830428251826ac42bfd43c02b7479b53
@@ -77,8 +77,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Item_Pickup
       maxAttenuation: 0
-      maxDuration: 0.584376
-      minDuration: 0.584376
+      maxDuration: -1
+      minDuration: -1
     - name: Play_CharacterTheme
       guid: 7da42a6dfc26064b986b5f27be60e9bc
       id: 227758706
@@ -125,8 +125,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_FootSteps
       maxAttenuation: 0
-      maxDuration: 0.491701
-      minDuration: 0.226063
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Jump
       guid: d2b16cb0e3e2bb47b0a7670aa7a15fbe
       id: 3689126666
@@ -137,8 +137,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_Jump
       maxAttenuation: 0
-      maxDuration: 0.348571
-      minDuration: 0.348571
+      maxDuration: -1
+      minDuration: -1
     - name: Play_music
       guid: 623d7068bbd29e47aec21876e352d98d
       id: 2932040671
@@ -161,8 +161,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_Whoosh
       maxAttenuation: 0
-      maxDuration: 1.666667
-      minDuration: 1.666667
+      maxDuration: -1
+      minDuration: -1
     - name: Play_WoodBreak
       guid: 57267c28ba43d7449152c27757831bce
       id: 1051522630
@@ -173,8 +173,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Play_WoodBreak
       maxAttenuation: 0
-      maxDuration: 3.846553
-      minDuration: 3.846553
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -340,4 +340,4 @@ MonoBehaviour:
   - /mtljam_2020_WwiseProject/Events
   - /mtljam_2020_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
-  CurrentPluginConfig: Release
+  CurrentPluginConfig: Profile

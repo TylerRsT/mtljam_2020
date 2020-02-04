@@ -25,13 +25,21 @@
 					<ShortName>MYFIRSTSONG.wav</ShortName>
 					<Path>SFX\MYFIRSTSONG_B2CC7C7C.wem</Path>
 				</File>
+				<File Id="111415653" Language="SFX">
+					<ShortName>SomeSitar(fadeout).wav</ShortName>
+					<Path>SFX\SomeSitar(fadeout)_286568AB.wem</Path>
+				</File>
 				<File Id="221710098" Language="SFX">
 					<ShortName>DayBreak(endOfLevel).wav</ShortName>
 					<Path>SFX\DayBreak(endOfLevel)_F1789E6A.wem</Path>
 				</File>
-				<File Id="435380055" Language="SFX">
-					<ShortName>BeepBox-Song.wav</ShortName>
-					<Path>SFX\BeepBox-Song_1F66AD8F.wem</Path>
+				<File Id="300323922" Language="SFX">
+					<ShortName>Moreboopbox2.wav</ShortName>
+					<Path>SFX\Moreboopbox2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="396500312" Language="SFX">
+					<ShortName>Latestjam.wav</ShortName>
+					<Path>SFX\Latestjam_81238AE1.wem</Path>
 				</File>
 				<File Id="513890444" Language="SFX">
 					<ShortName>BeepBox-Drone.wav</ShortName>
@@ -41,13 +49,13 @@
 					<ShortName>SweetBellsAndWhistles.wav</ShortName>
 					<Path>SFX\SweetBellsAndWhistles_D79FB2B7.wem</Path>
 				</File>
-				<File Id="696194538" Language="SFX">
-					<ShortName>BeepBox-Jam.wav</ShortName>
-					<Path>SFX\BeepBox-Jam_A066806B.wem</Path>
-				</File>
 				<File Id="846099399" Language="SFX">
 					<ShortName>BeepBox-Dronelvl2.wav</ShortName>
 					<Path>SFX\BeepBox-Dronelvl2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1015298190" Language="SFX">
+					<ShortName>RipOffLisaMusic2.wav</ShortName>
+					<Path>SFX\RipOffLisaMusic2_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -63,7 +71,7 @@
 			<IncludedEvents>
 				<Event Id="3854155799" Name="Play_FootSteps" ObjectPath="\Events\Default Work Unit\Play_FootSteps" DurationType="OneShot" DurationMin="0.226063" DurationMax="0.491701"/>
 				<Event Id="3689126666" Name="Play_Jump" ObjectPath="\Events\Default Work Unit\Play_Jump" DurationType="OneShot" DurationMin="0.348571" DurationMax="0.348571"/>
-				<Event Id="148817996" Name="Play_Whoosh" ObjectPath="\Events\Default Work Unit\Play_Whoosh" DurationType="OneShot" DurationMin="1.666667" DurationMax="1.666667"/>
+				<Event Id="148817996" Name="Play_Whoosh" ObjectPath="\Events\Default Work Unit\Play_Whoosh" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.460000"/>
 				<Event Id="1051522630" Name="Play_WoodBreak" ObjectPath="\Events\Default Work Unit\Play_WoodBreak" DurationType="OneShot" DurationMin="3.846553" DurationMax="3.846553"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

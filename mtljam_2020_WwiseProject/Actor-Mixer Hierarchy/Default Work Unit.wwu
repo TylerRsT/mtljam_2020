@@ -672,113 +672,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="MetalSheet" ID="{7B7D1755-D1B1-45EC-B5E9-366728B1137E}" ShortID="487156055">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Footstep_Walking_Hardmetal_01" ID="{6A2BE7A1-6855-4CC8-8CF2-4136017FC86F}" ShortID="833783044">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footstep_Walking_Hardmetal_01" ID="{D3F5AE46-D971-4384-9024-4F6B5CE4B35E}" ShortID="225131998">
-											<Language>SFX</Language>
-											<AudioFile>MetalSheet\Footstep_Walking_Hardmetal_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footstep_Walking_Hardmetal_01" ID="{D3F5AE46-D971-4384-9024-4F6B5CE4B35E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footstep_Walking_Hardmetal_02" ID="{3FA29AE4-A3F7-4225-86A5-3460F6E6B21F}" ShortID="715231360">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footstep_Walking_Hardmetal_02" ID="{9988B71B-51C5-495A-92DE-ECA1201DBC56}" ShortID="331117560">
-											<Language>SFX</Language>
-											<AudioFile>MetalSheet\Footstep_Walking_Hardmetal_02.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footstep_Walking_Hardmetal_02" ID="{9988B71B-51C5-495A-92DE-ECA1201DBC56}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footstep_Walking_Hardmetal_03" ID="{6CE698A0-8059-40F6-89B3-07DCE726B8EB}" ShortID="1047202705">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footstep_Walking_Hardmetal_03" ID="{8782F1F3-3E11-4705-944D-3AB0D0CD1431}" ShortID="612279404">
-											<Language>SFX</Language>
-											<AudioFile>MetalSheet\Footstep_Walking_Hardmetal_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footstep_Walking_Hardmetal_03" ID="{8782F1F3-3E11-4705-944D-3AB0D0CD1431}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footstep_Walking_Hardmetal_04" ID="{1C8C961F-2304-482E-B9B5-FBB012610A2D}" ShortID="1011962499">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footstep_Walking_Hardmetal_04" ID="{09142715-F6A7-43D2-8017-506359F7E288}" ShortID="343697156">
-											<Language>SFX</Language>
-											<AudioFile>MetalSheet\Footstep_Walking_Hardmetal_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footstep_Walking_Hardmetal_04" ID="{09142715-F6A7-43D2-8017-506359F7E288}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Footstep_Walking_Hardmetal_05" ID="{BFC1ABBB-00AD-4DF9-B249-49D7EBEE3295}" ShortID="160252163">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Footstep_Walking_Hardmetal_05" ID="{C0778F09-B164-4063-A89C-F4EE82F7B2D7}" ShortID="339311221">
-											<Language>SFX</Language>
-											<AudioFile>MetalSheet\Footstep_Walking_Hardmetal_05.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Footstep_Walking_Hardmetal_05" ID="{C0778F09-B164-4063-A89C-F4EE82F7B2D7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WoodSolid" ID="{5748E2CE-0746-4F8D-8BBE-876B9B5C1B48}" ShortID="944471371">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -894,9 +787,6 @@
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="Gravel" ID="{0D5DEE03-EC87-45A0-8AC7-FC8CDEEDC381}"/>
-							</GroupingBehavior>
-							<GroupingBehavior>
-								<ItemRef Name="MetalSheet" ID="{7B7D1755-D1B1-45EC-B5E9-366728B1137E}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Grass" ID="{CCEC90A5-7F95-45E8-9574-DB8316259BBA}"/>
@@ -1206,9 +1096,19 @@
 				</Sound>
 				<Sound Name="Whoosh" ID="{2D708A88-815E-406C-AD1D-E7EB1A238DF4}" ShortID="344903867">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>39</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-1</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1223,8 +1123,9 @@
 					<ChildrenList>
 						<SourcePlugin Name="SoundSeed Air Woosh" ID="{94B29811-F0F1-44CA-9A63-CCF8F061BC42}" ShortID="710674109" PluginName="SoundSeed Air Woosh" CompanyID="0" PluginID="120">
 							<PropertyList>
-								<Property Name="Duration" Type="Real64" Value="3"/>
-								<Property Name="PlaybackRate" Type="Real32" Value="1.8"/>
+								<Property Name="Duration" Type="Real64" Value="1.4"/>
+								<Property Name="DurationRandom" Type="Real32" Value="0.9"/>
+								<Property Name="PlaybackRate" Type="Real32" Value="5"/>
 								<Property Name="Speed" Type="Real32" Value="1"/>
 								<Property Name="SpeedAutomate" Type="bool" Value="True"/>
 							</PropertyList>
@@ -1244,12 +1145,12 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>1.5</XPos>
+							<XPos>0.7</XPos>
 							<YPos>100</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>3</XPos>
+							<XPos>1.4</XPos>
 							<YPos>8.23529</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -1474,10 +1375,25 @@
 						</Sound>
 						<Sound Name="Drone_Level2" ID="{07316D6D-503A-4ABE-A446-4466DECEEFE9}" ShortID="308300550">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>56</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-430</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-6</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{B4C9A85B-E7A1-4E9F-9FB6-E659E39FBF8C}" ShortID="932188719">
@@ -1497,22 +1413,22 @@
 														<Flags>5</Flags>
 													</Point>
 													<Point>
-														<XPos>38.08721</XPos>
+														<XPos>48.87266</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>38.77962</XPos>
-														<YPos>-0.32781</YPos>
+														<XPos>48.87366</XPos>
+														<YPos>0.43625</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>50.19602</XPos>
+														<XPos>50.3841</XPos>
 														<YPos>0.10882</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>50.19702</XPos>
+														<XPos>50.3851</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -1598,12 +1514,12 @@
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-960</Value>
+										<Value>180</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-8</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{FF440927-1863-4DB9-BFFB-8333F0B79C2F}" ShortID="211557588">
@@ -1756,12 +1672,12 @@
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>4.76332</XPos>
-														<YPos>-0.16236</YPos>
+														<XPos>4.88871</XPos>
+														<YPos>-0.55159</YPos>
 														<Flags>0</Flags>
 													</Point>
 													<Point>
-														<XPos>4.76432</XPos>
+														<XPos>4.88971</XPos>
 														<YPos>-200</YPos>
 														<Flags>0</Flags>
 													</Point>
@@ -1817,7 +1733,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>11</Value>
+										<Value>-2</Value>
 									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{4067F85F-A738-4E46-ACC5-35A7C4FD72AE}" ShortID="1001622316">
@@ -2037,6 +1953,441 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Breaking Pieces of Wood Sound Effect Free High Quality Sound mp3" ID="{466BBEBB-182B-4612-ADAB-B7B820BC726F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Twinkle" ID="{02E5053F-BB9B-486C-BCFB-4DEBA875F65F}" ShortID="936967941">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>16</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-160</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RipOffLisaMusic2" ID="{192B320E-DADC-4144-937F-56FF50C6F5A2}" ShortID="894269974">
+							<Language>SFX</Language>
+							<AudioFile>RipOffLisaMusic2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RipOffLisaMusic2" ID="{192B320E-DADC-4144-937F-56FF50C6F5A2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="RipOffLisaMusic" ID="{56C45550-C864-46CC-87A7-EDBCC8FF35A9}" ShortID="991326535">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{E82C1DF9-A7C5-466E-B07E-61B575914888}" ShortID="832229096">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{78534B11-6350-40D6-A787-33084CD94B08}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>48.33756</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>48.65104</XPos>
+												<YPos>-0.25009</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>48.65204</XPos>
+												<YPos>-0.29026</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>50.56526</XPos>
+												<YPos>-35.04117</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RipOffLisaMusic2" ID="{33C9631F-6110-4867-9997-E81BF65C77C4}" ShortID="1015298190">
+							<Language>SFX</Language>
+							<AudioFile>RipOffLisaMusic2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RipOffLisaMusic2" ID="{33C9631F-6110-4867-9997-E81BF65C77C4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="New Sound SFX" ID="{D0C3F25C-B566-47C3-B89A-E3B1F5588B41}" ShortID="153142635">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-330</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Moreboopbox" ID="{56683C74-5220-4757-A7BF-03C71616A32B}" ShortID="460939637">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.553461932718293"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="3.18240611313024"/>
+								<Property Name="LoopEnd" Type="Real64" Value="9.568"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="12.7988071941106"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Moreboopbox.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Moreboopbox" ID="{56683C74-5220-4757-A7BF-03C71616A32B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="New&amp;ImprovedRunningTheme" ID="{6C446068-E006-43DB-93E6-256749830271}" ShortID="747267575">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>33</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-80</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{D4F4F405-58A9-4E48-B054-E2089A08F03A}" ShortID="961018372">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1C6549A3-D6D8-4268-B9A0-09C6F1BAA143}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>20.81405</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>26.64477</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>40.8464</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>46.77115</XPos>
+												<YPos>0.06055</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>46.77215</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Moreboopbox2" ID="{51165E0A-6132-47D6-98A5-75836759099E}" ShortID="300323922">
+							<Language>SFX</Language>
+							<AudioFile>Moreboopbox2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Moreboopbox2" ID="{51165E0A-6132-47D6-98A5-75836759099E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SitarWithFadeout" ID="{C179B742-F62D-4E09-BC8C-7C76A0043E25}" ShortID="265674330">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>330</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{F5C27E15-F882-411D-AFB3-003DB86C1B60}" ShortID="137517361">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{544F3F6D-B384-47A7-8334-721DD60C6ECF}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>8.52753</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>13.7506</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>14.28938</XPos>
+												<YPos>-0.34442</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>17.05505</XPos>
+												<YPos>-0.00812</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>18.66937</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>21.28041</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>26.12036</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SomeSitar(fadeout)" ID="{373BFD52-9C56-4396-9C65-F03134488A75}" ShortID="111415653">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="4.01178315161681"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="2.69644441338179"/>
+								<Property Name="LoopBegin" Type="Real64" Value="2.01685273196036"/>
+								<Property Name="LoopEnd" Type="Real64" Value="11.5311362718603"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.745358618333178"/>
+								<Property Name="TrimEnd" Type="Real64" Value="12.2107279532818"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SomeSitar(fadeout).wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SomeSitar(fadeout)" ID="{373BFD52-9C56-4396-9C65-F03134488A75}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="NewChillSprint" ID="{8982A7E6-B9F9-4FB4-9189-DBFA16F40C03}" ShortID="1051758904">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{B18C29B6-BCDB-4DEA-958F-B2B49DAE178C}" ShortID="74482505">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Depth" ID="{460093D6-0FAB-47AF-8D7F-BE7AEA9B775D}" WorkUnitID="{57183F73-F96F-467C-AD56-2D786887B4CB}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{408DE36A-9BBD-4845-B14B-32E3E9F75A01}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>26.0805</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>26.0815047021944</XPos>
+												<YPos>-5.29576619864128E-02</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>28.4012539184953</XPos>
+												<YPos>-4.93254844439066E-02</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>28.65204</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>60</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D03E89-513E-4C23-8D2F-E318D5F5F2C0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4F75A469-4C2E-4292-9864-79FB8042DF94}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Latestjam" ID="{EAFE790B-C5B4-40A2-96C3-6B516E621A2C}" ShortID="396500312">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Latestjam.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Latestjam" ID="{EAFE790B-C5B4-40A2-96C3-6B516E621A2C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

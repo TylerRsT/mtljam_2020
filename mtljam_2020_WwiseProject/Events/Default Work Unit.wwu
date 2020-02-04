@@ -8,14 +8,7 @@
 						<Action Name="" ID="{1EA45AFA-048B-42B8-BAEE-5ECCAE500FA5}" ShortID="36022168">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RunningTheme3" ID="{7D4232D1-3491-49D3-8CFD-6E1497A98033}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F6437367-79CE-42B8-8E62-9BADEA7A8CA7}" ShortID="558297849">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GnarlySprint" ID="{8A3B9DBE-19DD-42BC-8231-304ACD54031D}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+									<ObjectRef Name="New&amp;ImprovedRunningTheme" ID="{6C446068-E006-43DB-93E6-256749830271}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -44,6 +37,27 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bells&amp;Whistles(levl4" ID="{4714C322-EDC6-4170-9AC5-47DEAED9F654}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{936FEFF6-E804-4969-A5E9-20CE3D86F50D}" ShortID="392786958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RipOffLisaMusic" ID="{56C45550-C864-46CC-87A7-EDBCC8FF35A9}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75AC79B3-15E8-4C62-95F1-F5ACE9E41816}" ShortID="957029368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NewChillSprint" ID="{8982A7E6-B9F9-4FB4-9189-DBFA16F40C03}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7B937898-784D-4FC1-BB89-969F587A18D3}" ShortID="357349208">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SitarWithFadeout" ID="{C179B742-F62D-4E09-BC8C-7C76A0043E25}" WorkUnitID="{95F12824-7AD7-4AF7-81BE-210AF53EFF07}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
