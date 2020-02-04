@@ -8,7 +8,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	17476001	MainMenuTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\MYFIRSTSONG_B2CC7C7C.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenuTheme		9019520
-	111415653	SitarWithFadeout	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\SomeSitar(fadeout)_286568AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SitarWithFadeout		2022620
+	111415653	SitarWithFadeout	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\SomeSitar(fadeout)_074C9E66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SitarWithFadeout		2022620
 	221710098	DayBreakLoop(Seemslikeyouregaining	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\DayBreak(endOfLevel)_F1789E6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\DayBreakLoop(Seemslikeyouregaining		5253920
 	300323922	New&ImprovedRunningTheme	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\Moreboopbox2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\New&ImprovedRunningTheme		1786552
 	396500312	NewChillSprint	E:\mtljam_2020\mtljam_2020_WwiseProject\.cache\Windows\SFX\Latestjam_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\NewChillSprint		27496000
